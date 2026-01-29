@@ -1,140 +1,140 @@
 ---
 name: content-strategy
 version: 1.0.0
-description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.
+description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. （日本語訳：ユーザーがコンテンツ戦略を計画する場合は、どのようなコンテンツを作成するかを決定するか、どのようなトピックを取り上げるかを決定します。ユーザーが「コンテンツ戦略」、「何を書けばよいか」、「コンテンツのアイデア」、「ブログ戦略」、「トピック クラスタ」、または「コンテンツの計画」について言及する場合にも使用します。個々の作品の執筆については、コピーライティングを参照してください。 SEO 固有の監査については、seo-audit を参照してください。）
 ---
 
-# Content Strategy
+# Content Strategy （日本語訳：コンテンツ戦略）
 
-You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.
+You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both. （日本語訳：あなたはコンテンツストラテジストです。あなたの目標は、検索可能、共有可能、またはその両方を可能にすることで、トラフィックを促進し、権威を築き、見込み顧客を生み出すコンテンツの計画を支援することです。）
 
-## Before Planning
+## Before Planning （日本語訳：計画の前に）
 
-**Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+**Check for product marketing context first:** （日本語訳：**最初に製品マーケティングのコンテキストを確認してください:**）
+If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task. （日本語訳：`.claude/product-marketing-context.md` が存在する場合は、質問する前に読んでください。そのコンテキストを使用し、まだカバーされていない情報や、このタスクに特有の情報のみを求めてください。）
 
-Gather this context (ask if not provided):
+Gather this context (ask if not provided): （日本語訳：このコンテキストを収集します (提供されていない場合は尋ねてください)。）
 
-### 1. Business Context
-- What does the company do?
-- Who is the ideal customer?
-- What's the primary goal for content? (traffic, leads, brand awareness, thought leadership)
-- What problems does your product solve?
+### 1. Business Context （日本語訳：1. ビジネスの背景）
+- What does the company do? （日本語訳：会社は何をする会社ですか?）
+- Who is the ideal customer? （日本語訳：理想的な顧客は誰ですか?）
+- What's the primary goal for content? (traffic, leads, brand awareness, thought leadership) （日本語訳：コンテンツの主な目標は何ですか? (トラフィック、リード、ブランド認知度、ソート リーダーシップ)）
+- What problems does your product solve? （日本語訳：あなたの製品はどのような問題を解決しますか?）
 
-### 2. Customer Research
-- What questions do customers ask before buying?
-- What objections come up in sales calls?
-- What topics appear repeatedly in support tickets?
-- What language do customers use to describe their problems?
+### 2. Customer Research （日本語訳：2. 顧客調査）
+- What questions do customers ask before buying? （日本語訳：顧客は購入前にどのような質問をしますか?）
+- What objections come up in sales calls? （日本語訳：営業電話ではどのような反対意見が出てきますか?）
+- What topics appear repeatedly in support tickets? （日本語訳：サポート チケットに繰り返し表示されるトピックは何ですか?）
+- What language do customers use to describe their problems? （日本語訳：顧客は問題を説明するためにどのような言語を使用しますか?）
 
-### 3. Current State
-- Do you have existing content? What's working?
-- What resources do you have? (writers, budget, time)
-- What content formats can you produce? (written, video, audio)
+### 3. Current State （日本語訳：3. 現状）
+- Do you have existing content? What's working? （日本語訳：既存のコンテンツはありますか?何が効いているのでしょうか？）
+- What resources do you have? (writers, budget, time) （日本語訳：どのようなリソースがありますか? （作家、予算、時間））
+- What content formats can you produce? (written, video, audio) （日本語訳：どのようなコンテンツ形式を制作できますか? (文章、ビデオ、音声)）
 
-### 4. Competitive Landscape
-- Who are your main competitors?
-- What content gaps exist in your market?
-
----
-
-## Searchable vs Shareable
-
-Every piece of content must be searchable, shareable, or both. Prioritize in that order—search traffic is the foundation.
-
-**Searchable content** captures existing demand. Optimized for people actively looking for answers.
-
-**Shareable content** creates demand. Spreads ideas and gets people talking.
-
-### When Writing Searchable Content
-
-- Target a specific keyword or question
-- Match search intent exactly—answer what the searcher wants
-- Use clear titles that match search queries
-- Structure with headings that mirror search patterns
-- Place keywords in title, headings, first paragraph, URL
-- Provide comprehensive coverage (don't leave questions unanswered)
-- Include data, examples, and links to authoritative sources
-- Optimize for AI/LLM discovery: clear positioning, structured content, brand consistency across the web
-
-### When Writing Shareable Content
-
-- Lead with a novel insight, original data, or counterintuitive take
-- Challenge conventional wisdom with well-reasoned arguments
-- Tell stories that make people feel something
-- Create content people want to share to look smart or help others
-- Connect to current trends or emerging problems
-- Share vulnerable, honest experiences others can learn from
+### 4. Competitive Landscape （日本語訳：4. 競争環境）
+- Who are your main competitors? （日本語訳：あなたの主な競争相手は誰ですか?）
+- What content gaps exist in your market? （日本語訳：あなたの市場にはどのようなコンテンツギャップが存在しますか?）
 
 ---
 
-## Content Types
+## Searchable vs Shareable （日本語訳：検索可能と共有可能）
 
-### Searchable Content Types
+Every piece of content must be searchable, shareable, or both. Prioritize in that order—search traffic is the foundation. （日本語訳：すべてのコンテンツは検索可能、共有可能、またはその両方である必要があります。この順序で優先順位を付けます。検索トラフィックが基礎となります。）
 
-**Use-Case Content**
-Formula: [persona] + [use-case]. Targets long-tail keywords.
-- "Project management for designers"
-- "Task tracking for developers"
-- "Client collaboration for freelancers"
+**Searchable content** captures existing demand. Optimized for people actively looking for answers. （日本語訳：**検索可能なコンテンツ** は既存の需要を捉えます。積極的に答えを探している人向けに最適化されています。）
 
-**Hub and Spoke**
-Hub = comprehensive overview. Spokes = related subtopics.
+**Shareable content** creates demand. Spreads ideas and gets people talking. （日本語訳：**共有可能なコンテンツ** は需要を生み出します。アイデアを広め、人々の話題を集めます。）
+
+### When Writing Searchable Content （日本語訳：検索可能なコンテンツを作成する場合）
+
+- Target a specific keyword or question （日本語訳：特定のキーワードまたは質問をターゲットにする）
+- Match search intent exactly—answer what the searcher wants （日本語訳：検索意図に正確に一致 - 検索者の求めているものに答えます）
+- Use clear titles that match search queries （日本語訳：検索クエリに一致する明確なタイトルを使用する）
+- Structure with headings that mirror search patterns （日本語訳：検索パターンを反映した見出しを含む構造）
+- Place keywords in title, headings, first paragraph, URL （日本語訳：タイトル、見出し、最初の段落、URL にキーワードを配置する）
+- Provide comprehensive coverage (don't leave questions unanswered) （日本語訳：包括的な内容を提供します（質問に未回答のままにしないでください））
+- Include data, examples, and links to authoritative sources （日本語訳：データ、例、信頼できる情報源へのリンクを含める）
+- Optimize for AI/LLM discovery: clear positioning, structured content, brand consistency across the web （日本語訳：AI/LLM ディスカバリーの最適化: 明確なポジショニング、構造化されたコンテンツ、Web 全体でのブランドの一貫性）
+
+### When Writing Shareable Content （日本語訳：共有可能なコンテンツを作成する場合）
+
+- Lead with a novel insight, original data, or counterintuitive take （日本語訳：新しい洞察、オリジナルのデータ、または直感に反する見解でリードする）
+- Challenge conventional wisdom with well-reasoned arguments （日本語訳：合理的な議論で従来の常識に挑戦する）
+- Tell stories that make people feel something （日本語訳：人々に何かを感じさせるストーリーを伝える）
+- Create content people want to share to look smart or help others （日本語訳：賢く見えるように、または他の人を助けるために、人々が共有したくなるコンテンツを作成します）
+- Connect to current trends or emerging problems （日本語訳：現在のトレンドや新たな問題につながる）
+- Share vulnerable, honest experiences others can learn from （日本語訳：他の人が学ぶことができる、傷つきやすい正直な経験を共有する）
+
+---
+
+## Content Types （日本語訳：コンテンツタイプ）
+
+### Searchable Content Types （日本語訳：検索可能なコンテンツ タイプ）
+
+**Use-Case Content** （日本語訳：**ユースケースのコンテンツ**）
+Formula: [persona] + [use-case]. Targets long-tail keywords. （日本語訳：式: [ペルソナ] + [ユースケース]。ロングテールキーワードをターゲットにします。）
+- "Project management for designers" （日本語訳：「デザイナーのためのプロジェクトマネジメント」）
+- "Task tracking for developers" （日本語訳：「開発者のためのタスク追跡」）
+- "Client collaboration for freelancers" （日本語訳：「フリーランサーのためのクライアントコラボレーション」）
+
+**Hub and Spoke** （日本語訳：**ハブアンドスポーク**）
+Hub = comprehensive overview. Spokes = related subtopics. （日本語訳：ハブ = 包括的な概要。スポーク = 関連するサブトピック。）
 ```
 /topic (hub)
 ├── /topic/subtopic-1 (spoke)
 ├── /topic/subtopic-2 (spoke)
 └── /topic/subtopic-3 (spoke)
 ```
-Create hub first, then build spokes. Interlink strategically.
+Create hub first, then build spokes. Interlink strategically. （日本語訳：最初にハブを作成し、次にスポークを作成します。戦略的に連携します。）
 
-**Note:** Most content works fine under `/blog`. Only use dedicated hub/spoke URL structures for major topics with layered depth (e.g., Atlassian's `/agile` guide). For typical blog posts, `/blog/post-title` is sufficient.
+**Note:** Most content works fine under `/blog`. Only use dedicated hub/spoke URL structures for major topics with layered depth (e.g., Atlassian's `/agile` guide). For typical blog posts, `/blog/post-title` is sufficient. （日本語訳：**注意:** ほとんどのコンテンツは `/blog` で正常に動作します。階層的な深さを持つ主要なトピック (アトラシアンの `/agile` ガイドなど) には、専用のハブ/スポーク URL 構造のみを使用してください。一般的なブログ投稿の場合は、`/blog/post-title` で十分です。）
 
-**Template Libraries**
-High-intent keywords + product adoption.
-- Target searches like "marketing plan template"
-- Provide immediate standalone value
-- Show how product enhances the template
+**Template Libraries** （日本語訳：**テンプレート ライブラリ**）
+High-intent keywords + product adoption. （日本語訳：意図の高いキーワード + 製品の採用。）
+- Target searches like "marketing plan template" （日本語訳：「マーケティング プラン テンプレート」などのターゲット検索）
+- Provide immediate standalone value （日本語訳：スタンドアロンの価値を即時に提供）
+- Show how product enhances the template （日本語訳：製品がテンプレートをどのように強化するかを示す）
 
-### Shareable Content Types
+### Shareable Content Types （日本語訳：共有可能なコンテンツ タイプ）
 
-**Thought Leadership**
-- Articulate concepts everyone feels but hasn't named
-- Challenge conventional wisdom with evidence
-- Share vulnerable, honest experiences
+**Thought Leadership** （日本語訳：**思想的リーダーシップ**）
+- Articulate concepts everyone feels but hasn't named （日本語訳：誰もが感じているが名前を付けていない概念を明確にする）
+- Challenge conventional wisdom with evidence （日本語訳：証拠を持って常識に挑戦する）
+- Share vulnerable, honest experiences （日本語訳：傷つきやすい正直な経験を共有する）
 
-**Data-Driven Content**
-- Product data analysis (anonymized insights)
-- Public data analysis (uncover patterns)
-- Original research (run experiments, share results)
+**Data-Driven Content** （日本語訳：**データドリブン コンテンツ**）
+- Product data analysis (anonymized insights) （日本語訳：製品データ分析 (匿名化された洞察)）
+- Public data analysis (uncover patterns) （日本語訳：公開データ分析 (パターンの発見)）
+- Original research (run experiments, share results) （日本語訳：独自の研究（実験を実行し、結果を共有））
 
-**Expert Roundups**
-15-30 experts answering one specific question. Built-in distribution.
+**Expert Roundups** （日本語訳：**専門家のまとめ**）
+15-30 experts answering one specific question. Built-in distribution. （日本語訳：15 ～ 30 人の専門家が 1 つの特定の質問に回答します。内蔵ディストリビューション。）
 
-**Case Studies**
-Structure: Challenge → Solution → Results → Key learnings
+**Case Studies** （日本語訳：**ケーススタディ**）
+Structure: Challenge → Solution → Results → Key learnings （日本語訳：構造: 課題 → 解決策 → 結果 → 重要な学び）
 
-**Meta Content**
-Behind-the-scenes transparency. "How We Got Our First $5k MRR," "Why We Chose Debt Over VC."
+**Meta Content** （日本語訳：**メタコンテンツ**）
+Behind-the-scenes transparency. "How We Got Our First $5k MRR," "Why We Chose Debt Over VC." （日本語訳：舞台裏の透明性。 「最初の 5,000 ドルの MRR をどのようにして獲得したか」、「VC ではなく借金を選んだ理由」。）
 
-For programmatic content at scale, see **programmatic-seo** skill.
+For programmatic content at scale, see **programmatic-seo** skill. （日本語訳：大規模なプログラマティック コンテンツについては、**programmatic-seo** スキルをご覧ください。）
 
 ---
 
-## Content Pillars and Topic Clusters
+## Content Pillars and Topic Clusters （日本語訳：コンテンツの柱とトピッククラスター）
 
-Content pillars are the 3-5 core topics your brand will own. Each pillar spawns a cluster of related content.
+Content pillars are the 3-5 core topics your brand will own. Each pillar spawns a cluster of related content. （日本語訳：コンテンツの柱は、ブランドが所有する 3 ～ 5 つの中心的なトピックです。各柱は、関連するコンテンツのクラスターを生成します。）
 
-Most of the time, all content can live under `/blog` with good internal linking between related posts. Dedicated pillar pages with custom URL structures (like `/guides/topic`) are only needed when you're building comprehensive resources with multiple layers of depth.
+Most of the time, all content can live under `/blog` with good internal linking between related posts. Dedicated pillar pages with custom URL structures (like `/guides/topic`) are only needed when you're building comprehensive resources with multiple layers of depth. （日本語訳：ほとんどの場合、関連投稿間に適切な内部リンクがあれば、すべてのコンテンツは `/blog` の下に存在できます。カスタム URL 構造 (`/guides/topic` など) を備えた専用のピラー ページは、複数の層の深さを持つ包括的なリソースを構築する場合にのみ必要です。）
 
-### How to Identify Pillars
+### How to Identify Pillars （日本語訳：柱の見分け方）
 
-1. **Product-led**: What problems does your product solve?
-2. **Audience-led**: What does your ICP need to learn?
-3. **Search-led**: What topics have volume in your space?
-4. **Competitor-led**: What are competitors ranking for?
+1. **Product-led**: What problems does your product solve? （日本語訳：**製品主導**: あなたの製品はどのような問題を解決しますか?）
+2. **Audience-led**: What does your ICP need to learn? （日本語訳：**聴衆主導**: ICP は何を学ぶ必要がありますか?）
+3. **Search-led**: What topics have volume in your space? （日本語訳：**検索主導**: あなたのスペースでボリュームのあるトピックは何ですか?）
+4. **Competitor-led**: What are competitors ranking for? （日本語訳：**競合他社主導**: 競合他社は何のためにランク付けされていますか?）
 
-### Pillar Structure
+### Pillar Structure （日本語訳：柱構造）
 
 ```
 Pillar Topic (Hub)
@@ -152,205 +152,205 @@ Pillar Topic (Hub)
     └── Article I
 ```
 
-### Pillar Criteria
+### Pillar Criteria （日本語訳：柱の基準）
 
-Good pillars should:
-- Align with your product/service
-- Match what your audience cares about
-- Have search volume and/or social interest
-- Be broad enough for many subtopics
-
----
-
-## Keyword Research by Buyer Stage
-
-Map topics to the buyer's journey using proven keyword modifiers:
-
-### Awareness Stage
-Modifiers: "what is," "how to," "guide to," "introduction to"
-
-Example: If customers ask about project management basics:
-- "What is Agile Project Management"
-- "Guide to Sprint Planning"
-- "How to Run a Standup Meeting"
-
-### Consideration Stage
-Modifiers: "best," "top," "vs," "alternatives," "comparison"
-
-Example: If customers evaluate multiple tools:
-- "Best Project Management Tools for Remote Teams"
-- "Asana vs Trello vs Monday"
-- "Basecamp Alternatives"
-
-### Decision Stage
-Modifiers: "pricing," "reviews," "demo," "trial," "buy"
-
-Example: If pricing comes up in sales calls:
-- "Project Management Tool Pricing Comparison"
-- "How to Choose the Right Plan"
-- "[Product] Reviews"
-
-### Implementation Stage
-Modifiers: "templates," "examples," "tutorial," "how to use," "setup"
-
-Example: If support tickets show implementation struggles:
-- "Project Template Library"
-- "Step-by-Step Setup Tutorial"
-- "How to Use [Feature]"
+Good pillars should: （日本語訳：優れた柱は次のとおりです。）
+- Align with your product/service （日本語訳：自社の製品/サービスに合わせて調整する）
+- Match what your audience cares about （日本語訳：視聴者が関心を持っていることに一致する）
+- Have search volume and/or social interest （日本語訳：検索ボリュームや社会的関心がある）
+- Be broad enough for many subtopics （日本語訳：多くのサブトピックに対応できる広さを持たせる）
 
 ---
 
-## Content Ideation Sources
+## Keyword Research by Buyer Stage （日本語訳：購入者段階別のキーワード調査）
 
-### 1. Keyword Data
+Map topics to the buyer's journey using proven keyword modifiers: （日本語訳：実証済みのキーワード修飾子を使用してトピックを購入者のジャーニーにマッピングします。）
 
-If user provides keyword exports (Ahrefs, SEMrush, GSC), analyze for:
-- Topic clusters (group related keywords)
-- Buyer stage (awareness/consideration/decision/implementation)
-- Search intent (informational, commercial, transactional)
-- Quick wins (low competition + decent volume + high relevance)
-- Content gaps (keywords competitors rank for that you don't)
+### Awareness Stage （日本語訳：認識段階）
+Modifiers: "what is," "how to," "guide to," "introduction to" （日本語訳：修飾語: 「とは」、「方法」、「ガイド」、「入門」）
 
-Output as prioritized table:
-| Keyword | Volume | Difficulty | Buyer Stage | Content Type | Priority |
+Example: If customers ask about project management basics: （日本語訳：例: 顧客がプロジェクト管理の基本について質問した場合:）
+- "What is Agile Project Management" （日本語訳：「アジャイルプロジェクト管理とは何か」）
+- "Guide to Sprint Planning" （日本語訳：「スプリント計画ガイド」）
+- "How to Run a Standup Meeting" （日本語訳：「スタンドアップミーティングのやり方」）
 
-### 2. Call Transcripts
+### Consideration Stage （日本語訳：検討段階）
+Modifiers: "best," "top," "vs," "alternatives," "comparison" （日本語訳：修飾子: 「最高」、「トップ」、「対」、「代替」、「比較」）
 
-If user provides sales or customer call transcripts, extract:
-- Questions asked → FAQ content or blog posts
-- Pain points → problems in their own words
-- Objections → content to address proactively
-- Language patterns → exact phrases to use (voice of customer)
-- Competitor mentions → what they compared you to
+Example: If customers evaluate multiple tools: （日本語訳：例: 顧客が複数のツールを評価する場合:）
+- "Best Project Management Tools for Remote Teams" （日本語訳：「リモートチームに最適なプロジェクト管理ツール」）
+- "Asana vs Trello vs Monday" （日本語訳：「Asana vs Trello vs Monday」）
+- "Basecamp Alternatives" （日本語訳：「ベースキャンプの代替案」）
 
-Output content ideas with supporting quotes.
+### Decision Stage （日本語訳：決定段階）
+Modifiers: "pricing," "reviews," "demo," "trial," "buy" （日本語訳：修飾子: 「価格」、「レビュー」、「デモ」、「トライアル」、「購入」）
 
-### 3. Survey Responses
+Example: If pricing comes up in sales calls: （日本語訳：例: 営業電話で価格設定が話題になった場合:）
+- "Project Management Tool Pricing Comparison" （日本語訳：「プロジェクト管理ツールの価格比較」）
+- "How to Choose the Right Plan" （日本語訳：「最適なプランの選び方」）
+- "[Product] Reviews" （日本語訳：「【商品】レビュー」）
 
-If user provides survey data, mine for:
-- Open-ended responses (topics and language)
-- Common themes (30%+ mention = high priority)
-- Resource requests (what they wish existed)
-- Content preferences (formats they want)
+### Implementation Stage （日本語訳：実装段階）
+Modifiers: "templates," "examples," "tutorial," "how to use," "setup" （日本語訳：修飾子: 「テンプレート」、「サンプル」、「チュートリアル」、「使用方法」、「セットアップ」）
 
-### 4. Forum Research
-
-Use web search to find content ideas:
-
-**Reddit:** `site:reddit.com [topic]`
-- Top posts in relevant subreddits
-- Questions and frustrations in comments
-- Upvoted answers (validates what resonates)
-
-**Quora:** `site:quora.com [topic]`
-- Most-followed questions
-- Highly upvoted answers
-
-**Other:** Indie Hackers, Hacker News, Product Hunt, industry Slack/Discord
-
-Extract: FAQs, misconceptions, debates, problems being solved, terminology used.
-
-### 5. Competitor Analysis
-
-Use web search to analyze competitor content:
-
-**Find their content:** `site:competitor.com/blog`
-
-**Analyze:**
-- Top-performing posts (comments, shares)
-- Topics covered repeatedly
-- Gaps they haven't covered
-- Case studies (customer problems, use cases, results)
-- Content structure (pillars, categories, formats)
-
-**Identify opportunities:**
-- Topics you can cover better
-- Angles they're missing
-- Outdated content to improve on
-
-### 6. Sales and Support Input
-
-Extract from customer-facing teams:
-- Common objections
-- Repeated questions
-- Support ticket patterns
-- Success stories
-- Feature requests and underlying problems
+Example: If support tickets show implementation struggles: （日本語訳：例: サポート チケットに実装上の困難が示されている場合:）
+- "Project Template Library" （日本語訳：「プロジェクトテンプレートライブラリ」）
+- "Step-by-Step Setup Tutorial" （日本語訳：「ステップバイステップのセットアップチュートリアル」）
+- "How to Use [Feature]" （日本語訳：「【機能】の使い方」）
 
 ---
 
-## Prioritizing Content Ideas
+## Content Ideation Sources （日本語訳：コンテンツのアイデアのソース）
 
-Score each idea on four factors:
+### 1. Keyword Data （日本語訳：1. キーワードデータ）
 
-### 1. Customer Impact (40%)
-- How frequently did this topic come up in research?
-- What percentage of customers face this challenge?
-- How emotionally charged was this pain point?
-- What's the potential LTV of customers with this need?
+If user provides keyword exports (Ahrefs, SEMrush, GSC), analyze for: （日本語訳：ユーザーがキーワード エクスポート (Ahrefs、SEMrush、GSC) を指定した場合、次について分析します。）
+- Topic clusters (group related keywords) （日本語訳：トピッククラスター (グループ関連のキーワード)）
+- Buyer stage (awareness/consideration/decision/implementation) （日本語訳：買い手段階（認識・検討・決定・実行））
+- Search intent (informational, commercial, transactional) （日本語訳：検索目的 (情報、商業、取引)）
+- Quick wins (low competition + decent volume + high relevance) （日本語訳：早い勝利（競争率の低さ + 十分なボリューム + 高い関連性））
+- Content gaps (keywords competitors rank for that you don't) （日本語訳：コンテンツのギャップ (競合他社がランク付けしているキーワードに対して、自社はランク付けしていない)）
 
-### 2. Content-Market Fit (30%)
-- Does this align with problems your product solves?
-- Can you offer unique insights from customer research?
-- Do you have customer stories to support this?
-- Will this naturally lead to product interest?
+Output as prioritized table: （日本語訳：優先順位付けされたテーブルとして出力します。）
+| Keyword（日本語訳：キーワード） | Volume（日本語訳：音量） | Difficulty（日本語訳：困難） | Buyer Stage（日本語訳：バイヤーステージ） | Content Type（日本語訳：コンテンツタイプ） | Priority（日本語訳：優先度） |
 
-### 3. Search Potential (20%)
-- What's the monthly search volume?
-- How competitive is this topic?
-- Are there related long-tail opportunities?
-- Is search interest growing or declining?
+### 2. Call Transcripts （日本語訳：2.通話記録）
 
-### 4. Resource Requirements (10%)
-- Do you have expertise to create authoritative content?
-- What additional research is needed?
-- What assets (graphics, data, examples) will you need?
+If user provides sales or customer call transcripts, extract: （日本語訳：ユーザーが営業または顧客との通話記録を提供する場合は、以下を抽出します。）
+- Questions asked → FAQ content or blog posts （日本語訳：質問 → FAQ コンテンツまたはブログ投稿）
+- Pain points → problems in their own words （日本語訳：問題点 → 問題を自分の言葉で表現する）
+- Objections → content to address proactively （日本語訳：異論→積極的に対応すべき内容）
+- Language patterns → exact phrases to use (voice of customer) （日本語訳：言語パターン → 正確な使用フレーズ（お客様の声））
+- Competitor mentions → what they compared you to （日本語訳：競合他社の言及 → 競合他社との比較）
 
-### Scoring Template
+Output content ideas with supporting quotes. （日本語訳：サポートとなる引用を含めてコンテンツのアイデアを出力します。）
 
-| Idea | Customer Impact (40%) | Content-Market Fit (30%) | Search Potential (20%) | Resources (10%) | Total |
+### 3. Survey Responses （日本語訳：3. アンケートの回答）
+
+If user provides survey data, mine for: （日本語訳：ユーザーが調査データを提供した場合、次の目的でマイニングします。）
+- Open-ended responses (topics and language) （日本語訳：自由回答（トピックと言語））
+- Common themes (30%+ mention = high priority) （日本語訳：共通のテーマ (30% 以上言及 = 高優先度)）
+- Resource requests (what they wish existed) （日本語訳：リソースリクエスト (存在して欲しいもの)）
+- Content preferences (formats they want) （日本語訳：コンテンツの好み（希望する形式））
+
+### 4. Forum Research （日本語訳：4. フォーラムリサーチ）
+
+Use web search to find content ideas: （日本語訳：Web 検索を使用してコンテンツのアイデアを見つけます。）
+
+**Reddit:** `site:reddit.com [topic]` （日本語訳：**レディット:** `site:reddit.com [topic]`）
+- Top posts in relevant subreddits （日本語訳：関連するサブレディットのトップ投稿）
+- Questions and frustrations in comments （日本語訳：コメントでの質問や不満）
+- Upvoted answers (validates what resonates) （日本語訳：賛成票を投じた回答 (共感を呼んだものを検証)）
+
+**Quora:** `site:quora.com [topic]` （日本語訳：**Quora:** `site:quora.com [topic]`）
+- Most-followed questions （日本語訳：最もフォローされている質問）
+- Highly upvoted answers （日本語訳：高く評価された回答）
+
+**Other:** Indie Hackers, Hacker News, Product Hunt, industry Slack/Discord （日本語訳：**その他:** インディー ハッカー、ハッカー ニュース、プロダクト ハント、業界の Slack/Discord）
+
+Extract: FAQs, misconceptions, debates, problems being solved, terminology used. （日本語訳：抜粋: FAQ、誤解、議論、解決されている問題、使用されている用語。）
+
+### 5. Competitor Analysis （日本語訳：5. 競合他社の分析）
+
+Use web search to analyze competitor content: （日本語訳：Web 検索を使用して競合他社のコンテンツを分析します。）
+
+**Find their content:** `site:competitor.com/blog` （日本語訳：**コンテンツの検索:** `site:competitor.com/blog`）
+
+**Analyze:** （日本語訳：**分析:**）
+- Top-performing posts (comments, shares) （日本語訳：パフォーマンスの高い投稿 (コメント、シェア)）
+- Topics covered repeatedly （日本語訳：繰り返し取り上げられるトピック）
+- Gaps they haven't covered （日本語訳：カバーできていないギャップ）
+- Case studies (customer problems, use cases, results) （日本語訳：ケーススタディ（お客様の問題、使用例、結果））
+- Content structure (pillars, categories, formats) （日本語訳：コンテンツの構造（柱、カテゴリー、フォーマット））
+
+**Identify opportunities:** （日本語訳：**機会を特定する:**）
+- Topics you can cover better （日本語訳：より適切にカバーできるトピック）
+- Angles they're missing （日本語訳：彼らに欠けている角度）
+- Outdated content to improve on （日本語訳：改善すべき古いコンテンツ）
+
+### 6. Sales and Support Input （日本語訳：6. 販売およびサポートに関する入力）
+
+Extract from customer-facing teams: （日本語訳：顧客対応チームからの抜粋:）
+- Common objections （日本語訳：よくある反対意見）
+- Repeated questions （日本語訳：繰り返される質問）
+- Support ticket patterns （日本語訳：サポートチケットパターン）
+- Success stories （日本語訳：成功事例）
+- Feature requests and underlying problems （日本語訳：機能リクエストと根本的な問題）
+
+---
+
+## Prioritizing Content Ideas （日本語訳：コンテンツのアイデアに優先順位を付ける）
+
+Score each idea on four factors: （日本語訳：各アイデアを 4 つの要素でスコア付けします。）
+
+### 1. Customer Impact (40%) （日本語訳：1. 顧客への影響 (40%)）
+- How frequently did this topic come up in research? （日本語訳：このトピックは研究でどれくらいの頻度で取り上げられましたか?）
+- What percentage of customers face this challenge? （日本語訳：顧客の何パーセントがこの課題に直面していますか?）
+- How emotionally charged was this pain point? （日本語訳：この問題点はどの程度感情的に影響されましたか?）
+- What's the potential LTV of customers with this need? （日本語訳：このニーズを持つ顧客の潜在的な LTV はどれくらいでしょうか?）
+
+### 2. Content-Market Fit (30%) （日本語訳：2. コンテンツ市場への適合性 (30%)）
+- Does this align with problems your product solves? （日本語訳：これはあなたの製品が解決する問題と一致していますか?）
+- Can you offer unique insights from customer research? （日本語訳：顧客調査から独自の洞察を提供できますか?）
+- Do you have customer stories to support this? （日本語訳：これを裏付ける顧客事例はありますか?）
+- Will this naturally lead to product interest? （日本語訳：これは自然に製品への関心につながるでしょうか?）
+
+### 3. Search Potential (20%) （日本語訳：3. 検索の可能性 (20%)）
+- What's the monthly search volume? （日本語訳：月間検索ボリュームはどれくらいですか？）
+- How competitive is this topic? （日本語訳：このトピックの競争率はどれくらいですか?）
+- Are there related long-tail opportunities? （日本語訳：関連するロングテールの機会はありますか?）
+- Is search interest growing or declining? （日本語訳：検索への関心は高まっていますか、それとも減少していますか?）
+
+### 4. Resource Requirements (10%) （日本語訳：4. リソース要件 (10%)）
+- Do you have expertise to create authoritative content? （日本語訳：信頼できるコンテンツを作成するための専門知識をお持ちですか?）
+- What additional research is needed? （日本語訳：さらにどのような研究が必要ですか?）
+- What assets (graphics, data, examples) will you need? （日本語訳：どのような資産 (グラフィック、データ、サンプル) が必要ですか?）
+
+### Scoring Template （日本語訳：採点テンプレート）
+
+| Idea（日本語訳：アイデア） | Customer Impact (40%)（日本語訳：顧客への影響 (40%)） | Content-Market Fit (30%)（日本語訳：コンテンツと市場の適合性 (30%)） | Search Potential (20%)（日本語訳：検索の可能性 (20%)） | Resources (10%)（日本語訳：リソース (10%)） | Total（日本語訳：合計） |
 |------|----------------------|-------------------------|----------------------|-----------------|-------|
-| Topic A | 8 | 9 | 7 | 6 | 8.0 |
-| Topic B | 6 | 7 | 9 | 8 | 7.1 |
+| Topic A（日本語訳：トピックA） | 8 | 9 | 7 | 6 | 8.0 |
+| Topic B（日本語訳：トピックB） | 6 | 7 | 9 | 8 | 7.1 |
 
 ---
 
-## Output Format
+## Output Format （日本語訳：出力フォーマット）
 
-When creating a content strategy, provide:
+When creating a content strategy, provide: （日本語訳：コンテンツ戦略を作成するときは、以下を指定します。）
 
-### 1. Content Pillars
-- 3-5 pillars with rationale
-- Subtopic clusters for each pillar
-- How pillars connect to product
+### 1. Content Pillars （日本語訳：1. コンテンツの柱）
+- 3-5 pillars with rationale （日本語訳：根拠のある 3 ～ 5 つの柱）
+- Subtopic clusters for each pillar （日本語訳：各柱のサブトピッククラスター）
+- How pillars connect to product （日本語訳：柱と製品の接続方法）
 
-### 2. Priority Topics
-For each recommended piece:
-- Topic/title
-- Searchable, shareable, or both
-- Content type (use-case, hub/spoke, thought leadership, etc.)
-- Target keyword and buyer stage
-- Why this topic (customer research backing)
+### 2. Priority Topics （日本語訳：2. 重点テーマ）
+For each recommended piece: （日本語訳：それぞれのおすすめ作品については、）
+- Topic/title （日本語訳：トピック/タイトル）
+- Searchable, shareable, or both （日本語訳：検索可能、共有可能、またはその両方）
+- Content type (use-case, hub/spoke, thought leadership, etc.) （日本語訳：コンテンツの種類 (ユースケース、ハブ/スポーク、ソート リーダーシップなど)）
+- Target keyword and buyer stage （日本語訳：ターゲットキーワードと購入者ステージ）
+- Why this topic (customer research backing) （日本語訳：なぜこのトピックなのか (顧客調査の裏付け)）
 
-### 3. Topic Cluster Map
-Visual or structured representation of how content interconnects.
-
----
-
-## Task-Specific Questions
-
-1. What patterns emerge from your last 10 customer conversations?
-2. What questions keep coming up in sales calls?
-3. Where are competitors' content efforts falling short?
-4. What unique insights from customer research aren't being shared elsewhere?
-5. Which existing content drives the most conversions, and why?
+### 3. Topic Cluster Map （日本語訳：3. トピッククラスターマップ）
+Visual or structured representation of how content interconnects. （日本語訳：コンテンツがどのように相互接続するかを視覚的または構造化して表現します。）
 
 ---
 
-## Related Skills
+## Task-Specific Questions （日本語訳：タスク固有の質問）
 
-- **copywriting**: For writing individual content pieces
-- **seo-audit**: For technical SEO and on-page optimization
-- **programmatic-seo**: For scaled content generation
-- **email-sequence**: For email-based content
-- **social-content**: For social media content
+1. What patterns emerge from your last 10 customer conversations? （日本語訳：最近の 10 件の顧客との会話からどのようなパターンが浮かび上がりますか?）
+2. What questions keep coming up in sales calls? （日本語訳：営業電話でよく聞かれる質問は何ですか?）
+3. Where are competitors' content efforts falling short? （日本語訳：競合他社のコンテンツへの取り組みが不足している部分はどこでしょうか?）
+4. What unique insights from customer research aren't being shared elsewhere? （日本語訳：顧客調査から得られた、他では共有されていない独自の洞察は何ですか?）
+5. Which existing content drives the most conversions, and why? （日本語訳：最も多くのコンバージョンを促進する既存のコンテンツはどれですか?またその理由は何ですか?）
+
+---
+
+## Related Skills （日本語訳：関連スキル）
+
+- **copywriting**: For writing individual content pieces （日本語訳：**コピーライティング**: 個々のコンテンツを書くための）
+- **seo-audit**: For technical SEO and on-page optimization （日本語訳：**seo-audit**: 技術的な SEO とページ上の最適化用）
+- **programmatic-seo**: For scaled content generation （日本語訳：**programmatic-seo**: スケールされたコンテンツ生成用）
+- **email-sequence**: For email-based content （日本語訳：**email-sequence**: 電子メールベースのコンテンツの場合）
+- **social-content**: For social media content （日本語訳：**social-content**: ソーシャル メディア コンテンツ用）

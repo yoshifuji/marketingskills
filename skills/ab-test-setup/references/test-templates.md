@@ -1,8 +1,8 @@
-# A/B Test Templates Reference
+# A/B Test Templates Reference （日本語訳：A/B テスト テンプレートのリファレンス）
 
-Templates for planning, documenting, and analyzing experiments.
+Templates for planning, documenting, and analyzing experiments. （日本語訳：実験を計画、文書化、分析するためのテンプレート。）
 
-## Test Plan Template
+## Test Plan Template （日本語訳：テスト計画テンプレート）
 
 ```markdown
 # A/B Test: [Name]
@@ -87,7 +87,7 @@ We'll know this is true when [metrics].
 
 ---
 
-## Results Documentation Template
+## Results Documentation Template （日本語訳：結果文書テンプレート）
 
 ```markdown
 # A/B Test Results: [Name]
@@ -184,9 +184,9 @@ We'll know this is true when [metrics].
 
 ---
 
-## Test Repository Entry Template
+## Test Repository Entry Template （日本語訳：テストリポジトリエントリテンプレート）
 
-For tracking all tests in a central location:
+For tracking all tests in a central location: （日本語訳：すべてのテストを中央の場所で追跡するには:）
 
 ```markdown
 | Test ID | Name | Page | Dates | Primary Metric | Result | Lift | Link |
@@ -198,9 +198,9 @@ For tracking all tests in a central location:
 
 ---
 
-## Quick Test Brief Template
+## Quick Test Brief Template （日本語訳：クイックテストの概要テンプレート）
 
-For simple tests that don't need full documentation:
+For simple tests that don't need full documentation: （日本語訳：完全なドキュメントを必要としない単純なテストの場合:）
 
 ```markdown
 ## [Test Name]
@@ -215,7 +215,7 @@ For simple tests that don't need full documentation:
 
 ---
 
-## Stakeholder Update Template
+## Stakeholder Update Template （日本語訳：関係者更新テンプレート）
 
 ```markdown
 ## A/B Test Update: [Name]
@@ -238,26 +238,26 @@ For simple tests that don't need full documentation:
 
 ---
 
-## Experiment Prioritization Scorecard
+## Experiment Prioritization Scorecard （日本語訳：テストの優先順位付けスコアカード）
 
-For deciding which tests to run:
+For deciding which tests to run: （日本語訳：実行するテストを決定するには:）
 
-| Factor | Weight | Test A | Test B | Test C |
+| Factor（日本語訳：要素） | Weight（日本語訳：重さ） | Test A（日本語訳：テストA） | Test B（日本語訳：テストB） | Test C（日本語訳：テストC） |
 |--------|--------|--------|--------|--------|
-| Potential impact | 30% | | | |
-| Confidence in hypothesis | 25% | | | |
-| Ease of implementation | 20% | | | |
-| Risk if wrong | 15% | | | |
-| Strategic alignment | 10% | | | |
-| **Total** | | | | |
+| Potential impact（日本語訳：潜在的な影響） | 30% | | | |
+| Confidence in hypothesis（日本語訳：仮説への信頼） | 25% | | | |
+| Ease of implementation（日本語訳：実装の容易さ） | 20% | | | |
+| Risk if wrong（日本語訳：間違った場合のリスク） | 15% | | | |
+| Strategic alignment（日本語訳：戦略的連携） | 10% | | | |
+| **Total**（日本語訳：**合計**） | | | | |
 
-Scoring: 1-5 (5 = best)
+Scoring: 1-5 (5 = best) （日本語訳：スコア: 1-5 (5 = 最高)）
 
 ---
 
-## Hypothesis Bank Template
+## Hypothesis Bank Template （日本語訳：仮説バンクのテンプレート）
 
-For collecting test ideas:
+For collecting test ideas: （日本語訳：テストのアイデアを収集するには:）
 
 ```markdown
 | ID | Page/Area | Observation | Hypothesis | Potential Impact | Status |

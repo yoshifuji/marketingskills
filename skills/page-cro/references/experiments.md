@@ -1,239 +1,239 @@
-# Page CRO Experiment Ideas
+# Page CRO Experiment Ideas （日本語訳：ページ CRO 実験のアイデア）
 
-Comprehensive list of A/B tests and experiments organized by page type.
+Comprehensive list of A/B tests and experiments organized by page type. （日本語訳：ページの種類ごとに整理された A/B テストと実験の包括的なリスト。）
 
-## Homepage Experiments
+## Homepage Experiments （日本語訳：ホームページの実験）
 
-### Hero Section
+### Hero Section （日本語訳：ヒーローセクション）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Headline variations | Specific vs. abstract messaging |
-| Subheadline clarity | Add/refine to support headline |
-| CTA above fold | Include or exclude prominent CTA |
-| Hero visual format | Screenshot vs. GIF vs. illustration vs. video |
-| CTA button color | Test contrast and visibility |
-| CTA button text | "Start Free Trial" vs. "Get Started" vs. "See Demo" |
-| Interactive demo | Engage visitors immediately with product |
+| Headline variations（日本語訳：見出しのバリエーション） | Specific vs. abstract messaging（日本語訳：具体的なメッセージングと抽象的なメッセージング） |
+| Subheadline clarity（日本語訳：サブヘッドラインの明確さ） | Add/refine to support headline（日本語訳：サポート見出しを追加/修正する） |
+| CTA above fold（日本語訳：スクロールせずに見える位置にある CTA） | Include or exclude prominent CTA（日本語訳：目立つCTAを含めるか除外する） |
+| Hero visual format（日本語訳：ヒーローのビジュアルフォーマット） | Screenshot vs. GIF vs. illustration vs. video（日本語訳：スクリーンショット vs. GIF vs. イラスト vs. ビデオ） |
+| CTA button color（日本語訳：CTAボタンの色） | Test contrast and visibility（日本語訳：コントラストと視認性をテストする） |
+| CTA button text（日本語訳：CTAボタンのテキスト） | "Start Free Trial" vs. "Get Started" vs. "See Demo"（日本語訳：「無料トライアルを開始する」 vs. 「始めてみる」 vs. 「デモを見る」） |
+| Interactive demo（日本語訳：インタラクティブなデモ） | Engage visitors immediately with product（日本語訳：訪問者に製品を即座にアピールする） |
 
-### Trust & Social Proof
+### Trust & Social Proof （日本語訳：信頼と社会的証明）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Logo placement | Hero section vs. below fold |
-| Case study in hero | Show results immediately |
-| Trust badges | Add security, compliance, awards |
-| Social proof in headline | "Join 10,000+ teams" messaging |
-| Testimonial placement | Above fold vs. dedicated section |
-| Video testimonials | More engaging than text quotes |
+| Logo placement（日本語訳：ロゴの配置） | Hero section vs. below fold（日本語訳：ヒーローセクションとスクロールせずに見える部分） |
+| Case study in hero（日本語訳：ヒーローのケーススタディ） | Show results immediately（日本語訳：結果をすぐに表示） |
+| Trust badges（日本語訳：トラストバッジ） | Add security, compliance, awards（日本語訳：セキュリティ、コンプライアンス、賞を追加） |
+| Social proof in headline（日本語訳：見出しの社会的証明） | "Join 10,000+ teams" messaging（日本語訳：「10,000 チーム以上に参加」メッセージ） |
+| Testimonial placement（日本語訳：お客様の声の掲載） | Above fold vs. dedicated section（日本語訳：スクロールせずに見える部分と専用セクション） |
+| Video testimonials（日本語訳：ビデオによる紹介） | More engaging than text quotes（日本語訳：テキストの引用よりも魅力的） |
 
-### Features & Content
+### Features & Content （日本語訳：機能とコンテンツ）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Feature presentation | Icons + descriptions vs. detailed sections |
-| Section ordering | Move high-value features up |
-| Secondary CTAs | Add/remove throughout page |
-| Benefit vs. feature focus | Lead with outcomes |
-| Comparison section | Show vs. competitors or status quo |
+| Feature presentation（日本語訳：機能のプレゼンテーション） | Icons + descriptions vs. detailed sections（日本語訳：アイコン + 説明と詳細セクション） |
+| Section ordering（日本語訳：セクションの順序付け） | Move high-value features up（日本語訳：価値の高い機能を上に移動） |
+| Secondary CTAs（日本語訳：セカンダリCTA） | Add/remove throughout page（日本語訳：ページ全体の追加/削除） |
+| Benefit vs. feature focus（日本語訳：利点と機能の焦点） | Lead with outcomes（日本語訳：成果をあげてリードする） |
+| Comparison section（日本語訳：比較セクション） | Show vs. competitors or status quo（日本語訳：競合他社または現状との比較を示す） |
 
-### Navigation & UX
+### Navigation & UX （日本語訳：ナビゲーションとUX）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Sticky navigation | Persistent nav with CTA |
-| Nav menu order | High-priority items at edges |
-| Nav CTA button | Add prominent button in nav |
-| Support widget | Live chat vs. AI chatbot |
-| Footer optimization | Clearer secondary conversions |
-| Exit intent popup | Capture abandoning visitors |
+| Sticky navigation（日本語訳：スティッキーナビゲーション） | Persistent nav with CTA（日本語訳：CTA 付きの永続的なナビゲーション） |
+| Nav menu order（日本語訳：ナビメニューの順序） | High-priority items at edges（日本語訳：エッジにある優先度の高いアイテム） |
+| Nav CTA button（日本語訳：ナビゲーションCTAボタン） | Add prominent button in nav（日本語訳：ナビゲーションに目立つボタンを追加する） |
+| Support widget（日本語訳：サポートウィジェット） | Live chat vs. AI chatbot（日本語訳：ライブチャットとAIチャットボット） |
+| Footer optimization（日本語訳：フッターの最適化） | Clearer secondary conversions（日本語訳：より明確な二次変換） |
+| Exit intent popup（日本語訳：インテントポップアップを終了する） | Capture abandoning visitors（日本語訳：放棄された訪問者を捕捉する） |
 
 ---
 
-## Pricing Page Experiments
+## Pricing Page Experiments （日本語訳：価格ページの実験）
 
-### Price Presentation
+### Price Presentation （日本語訳：価格提示）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Annual vs. monthly display | Highlight savings or simplify |
-| Price points | $99 vs. $100 vs. $97 psychology |
-| "Most Popular" badge | Highlight target plan |
-| Number of tiers | 3 vs. 4 vs. 2 visible options |
-| Price anchoring | Order plans to anchor expectations |
-| Custom enterprise tier | Show vs. "Contact Sales" |
+| Annual vs. monthly display（日本語訳：年間と月間の表示） | Highlight savings or simplify（日本語訳：節約を強調するか簡素化する） |
+| Price points（日本語訳：価格帯） | $99 vs. $100 vs. $97 psychology（日本語訳：99 ドル対 100 ドル対 97 ドルの心理学） |
+| "Most Popular" badge（日本語訳：「最も人気のある」バッジ） | Highlight target plan（日本語訳：目標計画を強調表示する） |
+| Number of tiers（日本語訳：階層数） | 3 vs. 4 vs. 2 visible options（日本語訳：3 対 4 対 2 の表示オプション） |
+| Price anchoring（日本語訳：価格アンカーリング） | Order plans to anchor expectations（日本語訳：期待を裏付ける注文計画） |
+| Custom enterprise tier（日本語訳：カスタムエンタープライズ層） | Show vs. "Contact Sales"（日本語訳：表示 vs. 「営業担当者へのお問い合わせ」） |
 
-### Pricing UX
+### Pricing UX （日本語訳：価格設定のUX）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Pricing calculator | For usage-based pricing clarity |
-| Guided pricing flow | Multistep wizard vs. comparison table |
-| Feature comparison format | Table vs. expandable sections |
-| Monthly/annual toggle | With savings highlighted |
-| Plan recommendation quiz | Help visitors choose |
-| Checkout flow length | Steps required after plan selection |
+| Pricing calculator（日本語訳：価格計算ツール） | For usage-based pricing clarity（日本語訳：使用量ベースの価格設定を明確にするため） |
+| Guided pricing flow（日本語訳：ガイド付きの価格設定フロー） | Multistep wizard vs. comparison table（日本語訳：複数ステップのウィザードと比較表） |
+| Feature comparison format（日本語訳：特徴比較フォーマット） | Table vs. expandable sections（日本語訳：テーブルと展開可能なセクションの比較） |
+| Monthly/annual toggle（日本語訳：月次/年次切り替え） | With savings highlighted（日本語訳：節約が強調表示された状態） |
+| Plan recommendation quiz（日本語訳：企画おすすめクイズ） | Help visitors choose（日本語訳：訪問者の選択を支援する） |
+| Checkout flow length（日本語訳：チェックアウトフローの長さ） | Steps required after plan selection（日本語訳：プラン選択後に必要な手順） |
 
-### Objection Handling
+### Objection Handling （日本語訳：異議申し立てへの対応）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| FAQ section | Address pricing objections |
-| ROI calculator | Demonstrate value vs. cost |
-| Money-back guarantee | Prominent placement |
-| Per-user breakdowns | Clarity for team plans |
-| Feature inclusion clarity | What's in each tier |
-| Competitor comparison | Side-by-side value comparison |
+| FAQ section（日本語訳：よくある質問セクション） | Address pricing objections（日本語訳：価格設定に関する異議申し立てに対処する） |
+| ROI calculator（日本語訳：ROI 計算ツール） | Demonstrate value vs. cost（日本語訳：価値とコストを比較する） |
+| Money-back guarantee（日本語訳：返金保証） | Prominent placement（日本語訳：目立つ配置） |
+| Per-user breakdowns（日本語訳：ユーザーごとの内訳） | Clarity for team plans（日本語訳：チーム計画を明確にする） |
+| Feature inclusion clarity（日本語訳：特徴の包含の明確さ） | What's in each tier（日本語訳：各層の内容） |
+| Competitor comparison（日本語訳：競合他社の比較） | Side-by-side value comparison（日本語訳：値を並べて比較） |
 
-### Trust Signals
+### Trust Signals （日本語訳：トラストシグナル）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Value testimonials | Quotes about ROI specifically |
-| Customer logos | Near pricing section |
-| Review scores | G2/Capterra ratings |
-| Case study snippet | Specific pricing/value results |
+| Value testimonials（日本語訳：価値ある証言） | Quotes about ROI specifically（日本語訳：特にROIに関する引用） |
+| Customer logos（日本語訳：顧客のロゴ） | Near pricing section（日本語訳：価格セクション付近） |
+| Review scores（日本語訳：レビュースコア） | G2/Capterra ratings（日本語訳：G2/カプテラの評価） |
+| Case study snippet（日本語訳：ケーススタディのスニペット） | Specific pricing/value results（日本語訳：具体的な価格設定/価値の結果） |
 
 ---
 
-## Demo Request Page Experiments
+## Demo Request Page Experiments （日本語訳：デモリクエストページの実験）
 
-### Form Optimization
+### Form Optimization （日本語訳：フォームの最適化）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Field count | Fewer fields, higher completion |
-| Multi-step vs. single | Progress bar encouragement |
-| Form placement | Above fold vs. after content |
-| Phone field | Include vs. exclude |
-| Field enrichment | Hide fields you can auto-fill |
-| Form labels | Inside field vs. above |
+| Field count（日本語訳：フィールド数） | Fewer fields, higher completion（日本語訳：フィールドが少なく、完成度が高い） |
+| Multi-step vs. single（日本語訳：マルチステップとシングルステップの比較） | Progress bar encouragement（日本語訳：プログレスバーの促進） |
+| Form placement（日本語訳：フォームの配置） | Above fold vs. after content（日本語訳：アバブ コンテンツとアフター コンテンツ） |
+| Phone field（日本語訳：電話フィールド） | Include vs. exclude（日本語訳：含めるか除外するか） |
+| Field enrichment（日本語訳：フィールドの強化） | Hide fields you can auto-fill（日本語訳：自動入力できるフィールドを非表示にする） |
+| Form labels（日本語訳：フォームラベル） | Inside field vs. above（日本語訳：インサイドフィールド vs. 上記） |
 
-### Page Content
+### Page Content （日本語訳：ページコンテンツ）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Benefits above form | Reinforce value before ask |
-| Demo preview | Video/GIF showing demo experience |
-| "What You'll Learn" | Set expectations clearly |
-| Testimonials near form | Reduce friction at decision point |
-| FAQ below form | Address common objections |
-| Video vs. text | Format for explaining value |
+| Benefits above form（日本語訳：フォーム上の特典） | Reinforce value before ask（日本語訳：尋ねる前に価値を強化する） |
+| Demo preview（日本語訳：デモのプレビュー） | Video/GIF showing demo experience（日本語訳：デモ体験を示すビデオ/GIF） |
+| "What You'll Learn"（日本語訳：「何を学ぶか」） | Set expectations clearly（日本語訳：期待を明確に設定する） |
+| Testimonials near form（日本語訳：フォームに近いお客様の声） | Reduce friction at decision point（日本語訳：意思決定ポイントでの摩擦を軽減） |
+| FAQ below form（日本語訳：フォームの下のFAQ） | Address common objections（日本語訳：よくある反対意見に対処する） |
+| Video vs. text（日本語訳：動画とテキストの比較） | Format for explaining value（日本語訳：値を説明する形式） |
 
-### CTA & Routing
+### CTA & Routing （日本語訳：CTAとルーティング）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| CTA text | "Book Your Demo" vs. "Schedule 15-Min Call" |
-| On-demand option | Instant demo alongside live option |
-| Personalized messaging | Based on visitor data/source |
-| Navigation removal | Reduce page distractions |
-| Calendar integration | Inline booking vs. external link |
-| Qualification routing | Self-serve for some, sales for others |
+| CTA text（日本語訳：CTAテキスト） | "Book Your Demo" vs. "Schedule 15-Min Call"（日本語訳：「デモを予約する」 vs. 「15 分間の通話をスケジュールする」） |
+| On-demand option（日本語訳：オンデマンドオプション） | Instant demo alongside live option（日本語訳：インスタントデモとライブオプション） |
+| Personalized messaging（日本語訳：パーソナライズされたメッセージング） | Based on visitor data/source（日本語訳：訪問者のデータ/ソースに基づく） |
+| Navigation removal（日本語訳：ナビゲーションの削除） | Reduce page distractions（日本語訳：気を散らすページを減らす） |
+| Calendar integration（日本語訳：カレンダーの統合） | Inline booking vs. external link（日本語訳：インライン予約と外部リンクの比較） |
+| Qualification routing（日本語訳：資格のルーティング） | Self-serve for some, sales for others（日本語訳：セルフサービスもあれば、販売もある） |
 
 ---
 
-## Resource/Blog Page Experiments
+## Resource/Blog Page Experiments （日本語訳：リソース/ブログページの実験）
 
-### Content CTAs
+### Content CTAs （日本語訳：コンテンツCTA）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Floating CTAs | Sticky CTA on blog posts |
-| CTA placement | Inline vs. end-of-post only |
-| Reading time display | Estimated reading time |
-| Related resources | End-of-article recommendations |
-| Gated vs. free | Content access strategy |
-| Content upgrades | Specific to article topic |
+| Floating CTAs（日本語訳：フローティングCTA） | Sticky CTA on blog posts（日本語訳：ブログ投稿の固定 CTA） |
+| CTA placement（日本語訳：CTAの配置） | Inline vs. end-of-post only（日本語訳：インラインと投稿の終わりのみ） |
+| Reading time display（日本語訳：読書時間表示） | Estimated reading time（日本語訳：推定読書時間） |
+| Related resources（日本語訳：関連リソース） | End-of-article recommendations（日本語訳：記事の終わりの推奨事項） |
+| Gated vs. free（日本語訳：ゲート付き vs フリー） | Content access strategy（日本語訳：コンテンツアクセス戦略） |
+| Content upgrades（日本語訳：コンテンツのアップグレード） | Specific to article topic（日本語訳：記事のトピックに固有の） |
 
-### Resource Section
+### Resource Section （日本語訳：リソースセクション）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Navigation/filtering | Easier to find relevant content |
-| Search functionality | Find specific resources |
-| Featured resources | Highlight best content |
-| Layout format | Grid vs. list view |
-| Topic bundles | Grouped resources by theme |
-| Download tracking | Gate some, track engagement |
+| Navigation/filtering（日本語訳：ナビゲーション/フィルタリング） | Easier to find relevant content（日本語訳：関連するコンテンツを見つけやすくなる） |
+| Search functionality（日本語訳：検索機能） | Find specific resources（日本語訳：特定のリソースを見つける） |
+| Featured resources（日本語訳：注目のリソース） | Highlight best content（日本語訳：最高のコンテンツを強調する） |
+| Layout format（日本語訳：レイアウト形式） | Grid vs. list view（日本語訳：グリッドビューとリストビュー） |
+| Topic bundles（日本語訳：トピックバンドル） | Grouped resources by theme（日本語訳：テーマ別にグループ化されたリソース） |
+| Download tracking（日本語訳：ダウンロード追跡） | Gate some, track engagement（日本語訳：一部をゲートし、エンゲージメントを追跡する） |
 
 ---
 
-## Landing Page Experiments
+## Landing Page Experiments （日本語訳：ランディング ページの実験）
 
-### Message Match
+### Message Match （日本語訳：メッセージマッチ）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Headline matching | Match ad copy exactly |
-| Visual matching | Match ad creative |
-| Offer alignment | Same offer as ad promised |
-| Audience-specific pages | Different pages per segment |
+| Headline matching（日本語訳：見出しの一致） | Match ad copy exactly（日本語訳：広告コピーを正確に一致させる） |
+| Visual matching（日本語訳：ビジュアルマッチング） | Match ad creative（日本語訳：広告クリエイティブの一致） |
+| Offer alignment（日本語訳：オファーの調整） | Same offer as ad promised（日本語訳：広告で約束したものと同じオファー） |
+| Audience-specific pages（日本語訳：対象者別のページ） | Different pages per segment（日本語訳：セグメントごとに異なるページ） |
 
-### Conversion Focus
+### Conversion Focus （日本語訳：コンバージョンフォーカス）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Navigation removal | Single-focus page |
-| CTA repetition | Multiple CTAs throughout |
-| Form vs. button | Direct capture vs. click-through |
-| Urgency/scarcity | If genuine, test messaging |
-| Social proof density | Amount and placement |
-| Video inclusion | Explain offer with video |
+| Navigation removal（日本語訳：ナビゲーションの削除） | Single-focus page（日本語訳：単焦点ページ） |
+| CTA repetition（日本語訳：CTAの繰り返し） | Multiple CTAs throughout（日本語訳：全体に複数の CTA） |
+| Form vs. button（日本語訳：フォームとボタン） | Direct capture vs. click-through（日本語訳：直接キャプチャとクリックスルーの比較） |
+| Urgency/scarcity（日本語訳：緊急性/希少性） | If genuine, test messaging（日本語訳：本物の場合、メッセージングをテストする） |
+| Social proof density（日本語訳：社会的証明の密度） | Amount and placement（日本語訳：金額と配置） |
+| Video inclusion（日本語訳：ビデオの組み込み） | Explain offer with video（日本語訳：動画で特典を解説） |
 
-### Page Length
+### Page Length （日本語訳：ページの長さ）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Short vs. long | Quick conversion vs. complete argument |
-| Above-fold only | Minimal scroll required |
-| Section ordering | Most important content first |
-| Footer removal | Eliminate navigation |
+| Short vs. long（日本語訳：短いものと長いもの） | Quick conversion vs. complete argument（日本語訳：迅速な変換と完全な引数） |
+| Above-fold only（日本語訳：スクロールせずに見える範囲のみ） | Minimal scroll required（日本語訳：最小限のスクロールが必要） |
+| Section ordering（日本語訳：セクションの順序付け） | Most important content first（日本語訳：最も重要なコンテンツを最初に） |
+| Footer removal（日本語訳：フッターの削除） | Eliminate navigation（日本語訳：ナビゲーションを排除する） |
 
 ---
 
-## Feature Page Experiments
+## Feature Page Experiments （日本語訳：特集ページの実験）
 
-### Feature Presentation
+### Feature Presentation （日本語訳：機能のプレゼンテーション）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Demo/screenshot | Show feature in action |
-| Use case examples | How customers use it |
-| Before/after | Impact visualization |
-| Video walkthrough | Feature tour |
-| Interactive demo | Try feature without signup |
+| Demo/screenshot（日本語訳：デモ/スクリーンショット） | Show feature in action（日本語訳：動作中の機能を表示する） |
+| Use case examples（日本語訳：使用例） | How customers use it（日本語訳：お客様の使い方） |
+| Before/after（日本語訳：前/後） | Impact visualization（日本語訳：影響の可視化） |
+| Video walkthrough（日本語訳：ビデオウォークスルー） | Feature tour（日本語訳：特集ツアー） |
+| Interactive demo（日本語訳：インタラクティブなデモ） | Try feature without signup（日本語訳：サインアップせずに機能を試す） |
 
-### Conversion Path
+### Conversion Path （日本語訳：変換パス）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Trial CTA | Feature-specific trial offer |
-| Related features | Cross-link to other features |
-| Comparison | vs. competitors' version |
-| Pricing mention | Connect to relevant plan |
-| Case study link | Feature-specific success story |
+| Trial CTA（日本語訳：トライアルCTA） | Feature-specific trial offer（日本語訳：機能固有のトライアルオファー） |
+| Related features（日本語訳：関連機能） | Cross-link to other features（日本語訳：他の機能への相互リンク） |
+| Comparison（日本語訳：比較） | vs. competitors' version（日本語訳：競合他社のバージョンとの比較） |
+| Pricing mention（日本語訳：価格に関する言及） | Connect to relevant plan（日本語訳：関連するプランに接続する） |
+| Case study link（日本語訳：ケーススタディのリンク） | Feature-specific success story（日本語訳：機能別の成功事例） |
 
 ---
 
-## Cross-Page Experiments
+## Cross-Page Experiments （日本語訳：クロスページ実験）
 
-### Site-Wide Tests
+### Site-Wide Tests （日本語訳：サイト全体のテスト）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Chat widget | Impact on conversions |
-| Cookie consent UX | Minimize friction |
-| Page load speed | Performance vs. features |
-| Mobile experience | Responsive optimization |
-| Accessibility | Impact on conversion |
-| Personalization | Dynamic content by segment |
+| Chat widget（日本語訳：チャットウィジェット） | Impact on conversions（日本語訳：コンバージョンへの影響） |
+| Cookie consent UX（日本語訳：Cookie 同意 UX） | Minimize friction（日本語訳：摩擦を最小限に抑える） |
+| Page load speed（日本語訳：ページの読み込み速度） | Performance vs. features（日本語訳：パフォーマンスと機能の比較） |
+| Mobile experience（日本語訳：モバイルエクスペリエンス） | Responsive optimization（日本語訳：レスポンシブな最適化） |
+| Accessibility（日本語訳：アクセシビリティ） | Impact on conversion（日本語訳：コンバージョンへの影響） |
+| Personalization（日本語訳：パーソナライゼーション） | Dynamic content by segment（日本語訳：セグメント別の動的コンテンツ） |
 
-### Navigation Tests
+### Navigation Tests （日本語訳：ナビゲーションテスト）
 
-| Test | Hypothesis |
+| Test（日本語訳：テスト） | Hypothesis（日本語訳：仮説） |
 |------|------------|
-| Menu structure | Information architecture |
-| Search placement | Help visitors find content |
-| CTA in nav | Always-visible conversion path |
-| Breadcrumbs | Navigation clarity |
+| Menu structure（日本語訳：メニュー構成） | Information architecture（日本語訳：情報アーキテクチャ） |
+| Search placement（日本語訳：検索の配置） | Help visitors find content（日本語訳：訪問者がコンテンツを見つけられるようにする） |
+| CTA in nav（日本語訳：ナビゲーションのCTA） | Always-visible conversion path（日本語訳：常に表示されるコンバージョン パス） |
+| Breadcrumbs（日本語訳：ブレッドクラム） | Navigation clarity（日本語訳：ナビゲーションの明瞭さ） |

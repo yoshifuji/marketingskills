@@ -1,24 +1,24 @@
-# Amplitude
+# Amplitude （日本語訳：振幅）
 
-Product analytics platform for user behavior, retention, and experimentation.
+Product analytics platform for user behavior, retention, and experimentation. （日本語訳：ユーザーの行動、維持、実験のための製品分析プラットフォーム。）
 
-## Capabilities
+## Capabilities （日本語訳：能力）
 
-| Integration | Available | Notes |
+| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
 |-------------|-----------|-------|
-| API | ✓ | HTTP API for events, User Profile API, Export API |
-| MCP | - | Not available |
-| CLI | - | Not available |
-| SDK | ✓ | JavaScript, iOS, Android, Python, etc. |
+| API（日本語訳：API） | ✓ | HTTP API for events, User Profile API, Export API（日本語訳：イベント用のHTTP API、ユーザープロファイルAPI、エクスポートAPI） |
+| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
+| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
+| SDK（日本語訳：SDK） | ✓ | JavaScript, iOS, Android, Python, etc.（日本語訳：JavaScript、iOS、Android、Python など） |
 
-## Authentication
+## Authentication （日本語訳：認証）
 
-- **HTTP API**: API Key (public for events)
-- **Export/Dashboard API**: API Key + Secret Key
+- **HTTP API**: API Key (public for events) （日本語訳：**HTTP API**: API キー (イベント用に公開)）
+- **Export/Dashboard API**: API Key + Secret Key （日本語訳：**エクスポート/ダッシュボード API**: API キー + 秘密キー）
 
-## Common Agent Operations
+## Common Agent Operations （日本語訳：エージェントの共通操作）
 
-### Track event
+### Track event （日本語訳：イベントを追跡する）
 
 ```bash
 POST https://api2.amplitude.com/2/httpapi
@@ -38,7 +38,7 @@ POST https://api2.amplitude.com/2/httpapi
 }
 ```
 
-### Batch events
+### Batch events （日本語訳：バッチイベント）
 
 ```bash
 POST https://api2.amplitude.com/batch
@@ -52,7 +52,7 @@ POST https://api2.amplitude.com/batch
 }
 ```
 
-### Get user activity
+### Get user activity （日本語訳：ユーザーアクティビティを取得する）
 
 ```bash
 GET https://amplitude.com/api/2/useractivity?user={user_id}
@@ -60,7 +60,7 @@ GET https://amplitude.com/api/2/useractivity?user={user_id}
 Authorization: Basic {base64(api_key:secret_key)}
 ```
 
-### Export events
+### Export events （日本語訳：イベントのエクスポート）
 
 ```bash
 GET https://amplitude.com/api/2/export?start=20240101T00&end=20240131T23
@@ -68,7 +68,7 @@ GET https://amplitude.com/api/2/export?start=20240101T00&end=20240131T23
 Authorization: Basic {base64(api_key:secret_key)}
 ```
 
-### Get retention data
+### Get retention data （日本語訳：保持データを取得する）
 
 ```bash
 GET https://amplitude.com/api/2/retention?e={"event_type":"signup_completed"}&start=20240101&end=20240131
@@ -76,9 +76,9 @@ GET https://amplitude.com/api/2/retention?e={"event_type":"signup_completed"}&st
 Authorization: Basic {base64(api_key:secret_key)}
 ```
 
-### Query with SQL (Snowflake)
+### Query with SQL (Snowflake) （日本語訳：SQL によるクエリ (スノーフレーク)）
 
-For Amplitude customers with SQL access:
+For Amplitude customers with SQL access: （日本語訳：SQL アクセスを持つ Amplitude のお客様の場合:）
 ```sql
 SELECT event_type, COUNT(*) as count
 FROM events
@@ -86,7 +86,7 @@ WHERE event_time > '2024-01-01'
 GROUP BY event_type
 ```
 
-## JavaScript SDK
+## JavaScript SDK （日本語訳：JavaScript SDK）
 
 ```javascript
 // Initialize
@@ -106,30 +106,30 @@ amplitude.track('Feature Used', {
 });
 ```
 
-## Key Concepts
+## Key Concepts （日本語訳：主要な概念）
 
-- **Events** - User actions with properties
-- **User Properties** - Persistent user attributes
-- **Cohorts** - Behavioral segments
-- **Funnels** - Multi-step conversion analysis
-- **Retention** - User return patterns
-- **Journeys** - User path analysis
+- **Events** - User actions with properties （日本語訳：**イベント** - プロパティを使用したユーザー アクション）
+- **User Properties** - Persistent user attributes （日本語訳：**ユーザー プロパティ** - 永続的なユーザー属性）
+- **Cohorts** - Behavioral segments （日本語訳：**コホート** - 行動セグメント）
+- **Funnels** - Multi-step conversion analysis （日本語訳：**ファネル** - 複数ステップの変換分析）
+- **Retention** - User return patterns （日本語訳：**リテンション** - ユーザーの復帰パターン）
+- **Journeys** - User path analysis （日本語訳：**ジャーニー** - ユーザー パス分析）
 
-## When to Use
+## When to Use （日本語訳：いつ使用するか）
 
-- Tracking product analytics
-- Analyzing user funnels
-- Cohort analysis and retention
-- Experimentation and A/B testing
-- User journey mapping
+- Tracking product analytics （日本語訳：製品分析の追跡）
+- Analyzing user funnels （日本語訳：ユーザーファネルの分析）
+- Cohort analysis and retention （日本語訳：コホート分析と保持）
+- Experimentation and A/B testing （日本語訳：実験とA/Bテスト）
+- User journey mapping （日本語訳：ユーザージャーニーマッピング）
 
-## Rate Limits
+## Rate Limits （日本語訳：レート制限）
 
-- HTTP API: 1000 events/second
-- Export API: 360 requests/hour
+- HTTP API: 1000 events/second （日本語訳：HTTP API: 1000 イベント/秒）
+- Export API: 360 requests/hour （日本語訳：API のエクスポート: 360 リクエスト/時間）
 
-## Relevant Skills
+## Relevant Skills （日本語訳：関連するスキル）
 
-- analytics-tracking
-- ab-test-setup
-- onboarding-cro
+- analytics-tracking （日本語訳：分析追跡）
+- ab-test-setup （日本語訳：ab-テストのセットアップ）
+- onboarding-cro （日本語訳：オンボーディングクロ）

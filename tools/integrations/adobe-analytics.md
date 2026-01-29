@@ -1,25 +1,25 @@
-# Adobe Analytics
+# Adobe Analytics （日本語訳：アドビアナリティクス）
 
-Enterprise analytics platform for cross-channel measurement and attribution.
+Enterprise analytics platform for cross-channel measurement and attribution. （日本語訳：クロスチャネル測定とアトリビューションのためのエンタープライズ分析プラットフォーム。）
 
-## Capabilities
+## Capabilities （日本語訳：能力）
 
-| Integration | Available | Notes |
+| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
 |-------------|-----------|-------|
-| API | ✓ | Reporting API 2.0, Data Insertion API |
-| MCP | - | Not available |
-| CLI | - | Not available |
-| SDK | ✓ | AppMeasurement.js, Mobile SDKs, Launch |
+| API（日本語訳：API） | ✓ | Reporting API 2.0, Data Insertion API（日本語訳：レポート API 2.0、データ挿入 API） |
+| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
+| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
+| SDK（日本語訳：SDK） | ✓ | AppMeasurement.js, Mobile SDKs, Launch（日本語訳：AppMeasurement.js、モバイル SDK、起動） |
 
-## Authentication
+## Authentication （日本語訳：認証）
 
-- **Type**: OAuth 2.0 (Service Account JWT)
-- **Setup**: Create integration in Adobe Developer Console
-- **Header**: `Authorization: Bearer {access_token}`
+- **Type**: OAuth 2.0 (Service Account JWT) （日本語訳：**タイプ**: OAuth 2.0 (サービス アカウント JWT)）
+- **Setup**: Create integration in Adobe Developer Console （日本語訳：**セットアップ**: Adob​​e Developer Console で統合を作成する）
+- **Header**: `Authorization: Bearer {access_token}` （日本語訳：**ヘッダー**: `Authorization: Bearer {access_token}`）
 
-## Common Agent Operations
+## Common Agent Operations （日本語訳：エージェントの共通操作）
 
-### Get report suite info
+### Get report suite info （日本語訳：レポート スイートの情報を取得する）
 
 ```bash
 GET https://analytics.adobe.io/api/{company_id}/reportsuites
@@ -28,7 +28,7 @@ Authorization: Bearer {access_token}
 x-api-key: {client_id}
 ```
 
-### Get dimensions
+### Get dimensions （日本語訳：寸法の取得）
 
 ```bash
 GET https://analytics.adobe.io/api/{company_id}/dimensions?rsid={report_suite_id}
@@ -37,7 +37,7 @@ Authorization: Bearer {access_token}
 x-api-key: {client_id}
 ```
 
-### Get metrics
+### Get metrics （日本語訳：メトリクスの取得）
 
 ```bash
 GET https://analytics.adobe.io/api/{company_id}/metrics?rsid={report_suite_id}
@@ -46,7 +46,7 @@ Authorization: Bearer {access_token}
 x-api-key: {client_id}
 ```
 
-### Run report
+### Run report （日本語訳：レポートの実行）
 
 ```bash
 POST https://analytics.adobe.io/api/{company_id}/reports
@@ -68,7 +68,7 @@ POST https://analytics.adobe.io/api/{company_id}/reports
 }
 ```
 
-### Get segments
+### Get segments （日本語訳：セグメントの取得）
 
 ```bash
 GET https://analytics.adobe.io/api/{company_id}/segments?rsid={report_suite_id}
@@ -77,7 +77,7 @@ Authorization: Bearer {access_token}
 x-api-key: {client_id}
 ```
 
-### Data Insertion (server-side)
+### Data Insertion (server-side) （日本語訳：データ挿入 (サーバー側)）
 
 ```bash
 POST https://{tracking_server}/b/ss/{report_suite_id}/0
@@ -91,7 +91,7 @@ POST https://{tracking_server}/b/ss/{report_suite_id}/0
 </request>
 ```
 
-## AppMeasurement.js
+## AppMeasurement.js （日本語訳：AppMeasurement.js）
 
 ```javascript
 // Initialize
@@ -111,46 +111,46 @@ s.t();
 s.tl(this, 'o', 'Button Click');
 ```
 
-## Key Concepts
+## Key Concepts （日本語訳：主要な概念）
 
-- **Report Suite** - Data container
-- **eVars** - Conversion variables (persistent)
-- **props** - Traffic variables (hit-level)
-- **Events** - Success metrics
-- **Segments** - User/visit filters
-- **Calculated Metrics** - Derived metrics
+- **Report Suite** - Data container （日本語訳：**レポートスイート** - データコンテナ）
+- **eVars** - Conversion variables (persistent) （日本語訳：**eVars** - 変換変数 (永続)）
+- **props** - Traffic variables (hit-level) （日本語訳：**props** - トラフィック変数 (ヒットレベル)）
+- **Events** - Success metrics （日本語訳：**イベント** - 成功指標）
+- **Segments** - User/visit filters （日本語訳：**セグメント** - ユーザー/訪問フィルター）
+- **Calculated Metrics** - Derived metrics （日本語訳：**計算されたメトリクス** - 派生メトリクス）
 
-## Common Dimensions
+## Common Dimensions （日本語訳：共通寸法）
 
-- `variables/page` - Page name
-- `variables/evar1` - Custom conversion variable
-- `variables/prop1` - Custom traffic variable
-- `variables/marketingchannel` - Marketing channel
-- `variables/referringdomain` - Referring domain
+- `variables/page` - Page name （日本語訳：`variables/page` - ページ名）
+- `variables/evar1` - Custom conversion variable （日本語訳：`variables/evar1` - カスタム変換変数）
+- `variables/prop1` - Custom traffic variable （日本語訳：`variables/prop1` - カスタム トラフィック変数）
+- `variables/marketingchannel` - Marketing channel （日本語訳：`variables/marketingchannel` - マーケティング チャネル）
+- `variables/referringdomain` - Referring domain （日本語訳：`variables/referringdomain` - 参照元ドメイン）
 
-## Common Metrics
+## Common Metrics （日本語訳：一般的な指標）
 
-- `metrics/visits` - Visits
-- `metrics/pageviews` - Page views
-- `metrics/uniquevisitors` - Unique visitors
-- `metrics/orders` - Orders
-- `metrics/revenue` - Revenue
+- `metrics/visits` - Visits （日本語訳：`metrics/visits` - 訪問数）
+- `metrics/pageviews` - Page views （日本語訳：`metrics/pageviews` - ページビュー）
+- `metrics/uniquevisitors` - Unique visitors （日本語訳：`metrics/uniquevisitors` - ユニークな訪問者）
+- `metrics/orders` - Orders （日本語訳：`metrics/orders` - 注文）
+- `metrics/revenue` - Revenue （日本語訳：`metrics/revenue` - 収益）
 
-## When to Use
+## When to Use （日本語訳：いつ使用するか）
 
-- Enterprise-scale analytics
-- Cross-channel attribution
-- Integration with Adobe Experience Cloud
-- Advanced segmentation
-- Data warehouse exports
+- Enterprise-scale analytics （日本語訳：エンタープライズ規模の分析）
+- Cross-channel attribution （日本語訳：クロスチャネルアトリビューション）
+- Integration with Adobe Experience Cloud （日本語訳：Adobe Experience Cloudとの統合）
+- Advanced segmentation （日本語訳：高度なセグメンテーション）
+- Data warehouse exports （日本語訳：データウェアハウスのエクスポート）
 
-## Rate Limits
+## Rate Limits （日本語訳：レート制限）
 
-- 12 requests/second per company
-- 120 requests/minute
+- 12 requests/second per company （日本語訳：1 企業あたり 12 リクエスト/秒）
+- 120 requests/minute （日本語訳：120 リクエスト/分）
 
-## Relevant Skills
+## Relevant Skills （日本語訳：関連するスキル）
 
-- analytics-tracking
-- ab-test-setup
-- paid-ads
+- analytics-tracking （日本語訳：分析追跡）
+- ab-test-setup （日本語訳：ab-テストのセットアップ）
+- paid-ads （日本語訳：有料広告）

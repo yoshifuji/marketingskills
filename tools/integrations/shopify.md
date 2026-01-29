@@ -1,25 +1,25 @@
-# Shopify
+# Shopify （日本語訳：ショッピファイ）
 
-E-commerce platform for online stores and retail.
+E-commerce platform for online stores and retail. （日本語訳：オンラインストアや小売店向けの電子商取引プラットフォーム。）
 
-## Capabilities
+## Capabilities （日本語訳：能力）
 
-| Integration | Available | Notes |
+| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
 |-------------|-----------|-------|
-| API | ✓ | REST Admin API, Storefront API, GraphQL |
-| MCP | - | Not available |
-| CLI | ✓ | Shopify CLI for themes and apps |
-| SDK | ✓ | Official libraries for multiple languages |
+| API（日本語訳：API） | ✓ | REST Admin API, Storefront API, GraphQL（日本語訳：REST管理API、ストアフロントAPI、GraphQL） |
+| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
+| CLI（日本語訳：CLI） | ✓ | Shopify CLI for themes and apps（日本語訳：テーマとアプリ用の Shopify CLI） |
+| SDK（日本語訳：SDK） | ✓ | Official libraries for multiple languages（日本語訳：多言語の公式ライブラリ） |
 
-## Authentication
+## Authentication （日本語訳：認証）
 
-- **Type**: Access Token (Custom App or OAuth)
-- **Header**: `X-Shopify-Access-Token: {access_token}`
-- **Base URL**: `https://{shop}.myshopify.com/admin/api/2024-01/`
+- **Type**: Access Token (Custom App or OAuth) （日本語訳：**タイプ**: アクセス トークン (カスタム アプリまたは OAuth)）
+- **Header**: `X-Shopify-Access-Token: {access_token}` （日本語訳：**ヘッダー**: `X-Shopify-Access-Token: {access_token}`）
+- **Base URL**: `https://{shop}.myshopify.com/admin/api/2024-01/` （日本語訳：**ベース URL**: `https://{shop}.myshopify.com/admin/api/2024-01/`）
 
-## Common Agent Operations
+## Common Agent Operations （日本語訳：エージェントの共通操作）
 
-### Get shop info
+### Get shop info （日本語訳：ショップ情報を取得する）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/shop.json
@@ -27,7 +27,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/shop.json
 X-Shopify-Access-Token: {access_token}
 ```
 
-### List products
+### List products （日本語訳：製品一覧）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/products.json?limit=50
@@ -35,7 +35,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/products.json?limit=50
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Get product
+### Get product （日本語訳：製品を入手）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/products/{product_id}.json
@@ -43,7 +43,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/products/{product_id}.json
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Create product
+### Create product （日本語訳：製品を作成する）
 
 ```bash
 POST https://{shop}.myshopify.com/admin/api/2024-01/products.json
@@ -64,7 +64,7 @@ X-Shopify-Access-Token: {access_token}
 }
 ```
 
-### List orders
+### List orders （日本語訳：注文をリストアップする）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/orders.json?status=any&limit=50
@@ -72,7 +72,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/orders.json?status=any&limit=
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Get order
+### Get order （日本語訳：注文を取得する）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/orders/{order_id}.json
@@ -80,7 +80,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/orders/{order_id}.json
 X-Shopify-Access-Token: {access_token}
 ```
 
-### List customers
+### List customers （日本語訳：顧客をリストアップする）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/customers.json?limit=50
@@ -88,7 +88,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/customers.json?limit=50
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Search customers
+### Search customers （日本語訳：顧客を検索する）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/customers/search.json?query=email:user@example.com
@@ -96,7 +96,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/customers/search.json?query=e
 X-Shopify-Access-Token: {access_token}
 ```
 
-### Get analytics
+### Get analytics （日本語訳：分析を取得する）
 
 ```bash
 GET https://{shop}.myshopify.com/admin/api/2024-01/reports.json
@@ -104,7 +104,7 @@ GET https://{shop}.myshopify.com/admin/api/2024-01/reports.json
 X-Shopify-Access-Token: {access_token}
 ```
 
-## GraphQL API
+## GraphQL API （日本語訳：GraphQL API）
 
 ```graphql
 {
@@ -125,7 +125,7 @@ X-Shopify-Access-Token: {access_token}
 }
 ```
 
-## CLI Commands
+## CLI Commands （日本語訳：CLIコマンド）
 
 ```bash
 # Login
@@ -144,33 +144,33 @@ shopify theme dev
 shopify app create node
 ```
 
-## Webhook Topics
+## Webhook Topics （日本語訳：Webhook トピック）
 
-| Topic | When |
+| Topic（日本語訳：トピック） | When（日本語訳：いつ） |
 |-------|------|
-| `orders/create` | New order |
-| `orders/paid` | Order paid |
-| `orders/fulfilled` | Order shipped |
-| `customers/create` | New customer |
-| `products/update` | Product changed |
-| `checkouts/create` | Checkout started |
+| `orders/create`（日本語訳：__コード0__） | New order（日本語訳：新規注文） |
+| `orders/paid`（日本語訳：__コード0__） | Order paid（日本語訳：注文が支払われた） |
+| `orders/fulfilled`（日本語訳：__コード0__） | Order shipped（日本語訳：注文品が発送されました） |
+| `customers/create`（日本語訳：__コード0__） | New customer（日本語訳：新規のお客様） |
+| `products/update`（日本語訳：__コード0__） | Product changed（日本語訳：製品が変更されました） |
+| `checkouts/create`（日本語訳：__コード0__） | Checkout started（日本語訳：チェックアウトが開始されました） |
 
-## When to Use
+## When to Use （日本語訳：いつ使用するか）
 
-- E-commerce store management
-- Product catalog operations
-- Order processing
-- Customer data management
-- Inventory tracking
+- E-commerce store management （日本語訳：ECストア運営）
+- Product catalog operations （日本語訳：商品カタログ業務）
+- Order processing （日本語訳：注文処理）
+- Customer data management （日本語訳：顧客データ管理）
+- Inventory tracking （日本語訳：在庫追跡）
 
-## Rate Limits
+## Rate Limits （日本語訳：レート制限）
 
-- REST: 2 requests/second
-- GraphQL: 50 points/second
-- Bulk operations available
+- REST: 2 requests/second （日本語訳：REST: 2 リクエスト/秒）
+- GraphQL: 50 points/second （日本語訳：GraphQL: 50 ポイント/秒）
+- Bulk operations available （日本語訳：一括操作が可能）
 
-## Relevant Skills
+## Relevant Skills （日本語訳：関連するスキル）
 
-- analytics-tracking
-- email-sequence
-- referral-program
+- analytics-tracking （日本語訳：分析追跡）
+- email-sequence （日本語訳：電子メールシーケンス）
+- referral-program （日本語訳：紹介プログラム）

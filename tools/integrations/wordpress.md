@@ -1,25 +1,25 @@
-# WordPress
+# WordPress （日本語訳：ワードプレス）
 
-Content management system for blogs and websites.
+Content management system for blogs and websites. （日本語訳：ブログやウェブサイトのコンテンツ管理システム。）
 
-## Capabilities
+## Capabilities （日本語訳：能力）
 
-| Integration | Available | Notes |
+| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
 |-------------|-----------|-------|
-| API | ✓ | REST API (WP REST API) |
-| MCP | - | Not available |
-| CLI | ✓ | WP-CLI for server-side management |
-| SDK | ✓ | Various client libraries |
+| API（日本語訳：API） | ✓ | REST API (WP REST API)（日本語訳：REST API (WP REST API)） |
+| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
+| CLI（日本語訳：CLI） | ✓ | WP-CLI for server-side management（日本語訳：サーバー側管理用の WP-CLI） |
+| SDK（日本語訳：SDK） | ✓ | Various client libraries（日本語訳：さまざまなクライアントライブラリ） |
 
-## Authentication
+## Authentication （日本語訳：認証）
 
-- **Type**: Application Password, JWT, or OAuth
-- **Header**: `Authorization: Basic {base64(username:app_password)}`
-- **Setup**: Users > Your Profile > Application Passwords
+- **Type**: Application Password, JWT, or OAuth （日本語訳：**タイプ**: アプリケーションパスワード、JWT、または OAuth）
+- **Header**: `Authorization: Basic {base64(username:app_password)}` （日本語訳：**ヘッダー**: `Authorization: Basic {base64(username:app_password)}`）
+- **Setup**: Users > Your Profile > Application Passwords （日本語訳：**セットアップ**: ユーザー > プロフィール > アプリケーション パスワード）
 
-## Common Agent Operations
+## Common Agent Operations （日本語訳：エージェントの共通操作）
 
-### List posts
+### List posts （日本語訳：投稿を一覧表示する）
 
 ```bash
 GET https://example.com/wp-json/wp/v2/posts?per_page=10
@@ -27,7 +27,7 @@ GET https://example.com/wp-json/wp/v2/posts?per_page=10
 Authorization: Basic {base64(username:app_password)}
 ```
 
-### Get post
+### Get post （日本語訳：投稿を取得する）
 
 ```bash
 GET https://example.com/wp-json/wp/v2/posts/{post_id}
@@ -35,7 +35,7 @@ GET https://example.com/wp-json/wp/v2/posts/{post_id}
 Authorization: Basic {base64(username:app_password)}
 ```
 
-### Create post
+### Create post （日本語訳：投稿を作成する）
 
 ```bash
 POST https://example.com/wp-json/wp/v2/posts
@@ -51,7 +51,7 @@ Authorization: Basic {base64(username:app_password)}
 }
 ```
 
-### Update post
+### Update post （日本語訳：投稿を更新）
 
 ```bash
 PUT https://example.com/wp-json/wp/v2/posts/{post_id}
@@ -64,7 +64,7 @@ Authorization: Basic {base64(username:app_password)}
 }
 ```
 
-### List pages
+### List pages （日本語訳：リストページ）
 
 ```bash
 GET https://example.com/wp-json/wp/v2/pages?per_page=20
@@ -72,13 +72,13 @@ GET https://example.com/wp-json/wp/v2/pages?per_page=20
 Authorization: Basic {base64(username:app_password)}
 ```
 
-### List categories
+### List categories （日本語訳：リストカテゴリ）
 
 ```bash
 GET https://example.com/wp-json/wp/v2/categories
 ```
 
-### Create category
+### Create category （日本語訳：カテゴリの作成）
 
 ```bash
 POST https://example.com/wp-json/wp/v2/categories
@@ -89,7 +89,7 @@ POST https://example.com/wp-json/wp/v2/categories
 }
 ```
 
-### Upload media
+### Upload media （日本語訳：メディアをアップロードする）
 
 ```bash
 POST https://example.com/wp-json/wp/v2/media
@@ -101,7 +101,7 @@ Content-Type: image/jpeg
 [binary image data]
 ```
 
-### List users
+### List users （日本語訳：ユーザーのリストを表示する）
 
 ```bash
 GET https://example.com/wp-json/wp/v2/users
@@ -109,7 +109,7 @@ GET https://example.com/wp-json/wp/v2/users
 Authorization: Basic {base64(username:app_password)}
 ```
 
-## WP-CLI Commands
+## WP-CLI Commands （日本語訳：WP-CLI コマンド）
 
 ```bash
 # List posts
@@ -134,42 +134,42 @@ wp plugin install yoast-seo --activate
 wp plugin update --all
 ```
 
-## Post Statuses
+## Post Statuses （日本語訳：投稿ステータス）
 
-- `publish` - Live on site
-- `draft` - Not published
-- `pending` - Awaiting review
-- `private` - Private post
-- `future` - Scheduled
-- `trash` - In trash
+- `publish` - Live on site （日本語訳：`publish` - オンサイトでライブ）
+- `draft` - Not published （日本語訳：`draft` - 公開されていません）
+- `pending` - Awaiting review （日本語訳：`pending` - レビュー待ち）
+- `private` - Private post （日本語訳：`private` - プライベート投稿）
+- `future` - Scheduled （日本語訳：`future` - スケジュール済み）
+- `trash` - In trash （日本語訳：`trash` - ゴミ箱内）
 
-## Common Endpoints
+## Common Endpoints （日本語訳：共通エンドポイント）
 
-| Endpoint | Resource |
+| Endpoint（日本語訳：終点） | Resource（日本語訳：リソース） |
 |----------|----------|
-| `/wp/v2/posts` | Blog posts |
-| `/wp/v2/pages` | Pages |
-| `/wp/v2/media` | Images/files |
-| `/wp/v2/categories` | Categories |
-| `/wp/v2/tags` | Tags |
-| `/wp/v2/users` | Users |
-| `/wp/v2/comments` | Comments |
+| `/wp/v2/posts`（日本語訳：__コード0__） | Blog posts（日本語訳：ブログ投稿） |
+| `/wp/v2/pages`（日本語訳：__コード0__） | Pages（日本語訳：ページ） |
+| `/wp/v2/media`（日本語訳：__コード0__） | Images/files（日本語訳：画像/ファイル） |
+| `/wp/v2/categories`（日本語訳：__コード0__） | Categories（日本語訳：カテゴリー） |
+| `/wp/v2/tags`（日本語訳：__コード0__） | Tags（日本語訳：タグ） |
+| `/wp/v2/users`（日本語訳：__コード0__） | Users（日本語訳：ユーザー） |
+| `/wp/v2/comments`（日本語訳：__コード0__） | Comments（日本語訳：コメント） |
 
-## When to Use
+## When to Use （日本語訳：いつ使用するか）
 
-- Blog content management
-- Page updates
-- Media management
-- Site configuration
-- Plugin/theme management
+- Blog content management （日本語訳：ブログのコンテンツ管理）
+- Page updates （日本語訳：ページの更新）
+- Media management （日本語訳：メディア管理）
+- Site configuration （日本語訳：サイト構成）
+- Plugin/theme management （日本語訳：プラグイン/テーマの管理）
 
-## Rate Limits
+## Rate Limits （日本語訳：レート制限）
 
-- No default limits
-- Server/host dependent
+- No default limits （日本語訳：デフォルトの制限なし）
+- Server/host dependent （日本語訳：サーバー/ホストに依存）
 
-## Relevant Skills
+## Relevant Skills （日本語訳：関連するスキル）
 
-- content-strategy
-- seo-audit
-- programmatic-seo
+- content-strategy （日本語訳：コンテンツ戦略）
+- seo-audit （日本語訳：SEO監査）
+- programmatic-seo （日本語訳：プログラマティックSEO）

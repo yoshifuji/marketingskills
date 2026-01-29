@@ -1,59 +1,59 @@
-# Google Tag Manager Implementation Reference
+# Google Tag Manager Implementation Reference （日本語訳：Google タグマネージャー実装リファレンス）
 
-Detailed guide for implementing tracking via Google Tag Manager.
+Detailed guide for implementing tracking via Google Tag Manager. （日本語訳：Google タグ マネージャーを介してトラッキングを実装するための詳細なガイド。）
 
-## Container Structure
+## Container Structure （日本語訳：コンテナの構造）
 
-### Tags
+### Tags （日本語訳：タグ）
 
-Tags are code snippets that execute when triggered.
+Tags are code snippets that execute when triggered. （日本語訳：タグは、トリガーされたときに実行されるコード スニペットです。）
 
-**Common tag types:**
-- GA4 Configuration (base setup)
-- GA4 Event (custom events)
-- Google Ads Conversion
-- Facebook Pixel
-- LinkedIn Insight Tag
-- Custom HTML (for other pixels)
+**Common tag types:** （日本語訳：**一般的なタグの種類:**）
+- GA4 Configuration (base setup) （日本語訳：GA4 構成 (基本セットアップ)）
+- GA4 Event (custom events) （日本語訳：GA4 イベント (カスタム イベント)）
+- Google Ads Conversion （日本語訳：Google 広告のコンバージョン）
+- Facebook Pixel （日本語訳：フェイスブックピクセル）
+- LinkedIn Insight Tag （日本語訳：LinkedIn インサイト タグ）
+- Custom HTML (for other pixels) （日本語訳：カスタム HTML (他のピクセル用)）
 
-### Triggers
+### Triggers （日本語訳：トリガー）
 
-Triggers define when tags fire.
+Triggers define when tags fire. （日本語訳：トリガーはタグがいつ起動されるかを定義します。）
 
-**Built-in triggers:**
-- Page View: All Pages, DOM Ready, Window Loaded
-- Click: All Elements, Just Links
-- Form Submission
-- Scroll Depth
-- Timer
-- Element Visibility
+**Built-in triggers:** （日本語訳：**組み込みトリガー:**）
+- Page View: All Pages, DOM Ready, Window Loaded （日本語訳：ページビュー: すべてのページ、DOM 対応、ウィンドウロード済み）
+- Click: All Elements, Just Links （日本語訳：クリック: すべての要素、リンクのみ）
+- Form Submission （日本語訳：フォームの送信）
+- Scroll Depth （日本語訳：スクロールの深さ）
+- Timer （日本語訳：タイマー）
+- Element Visibility （日本語訳：要素の可視性）
 
-**Custom triggers:**
-- Custom Event (from dataLayer)
-- Trigger Groups (multiple conditions)
+**Custom triggers:** （日本語訳：**カスタム トリガー:**）
+- Custom Event (from dataLayer) （日本語訳：カスタム イベント (dataLayer から)）
+- Trigger Groups (multiple conditions) （日本語訳：トリガーグループ（複数の条件））
 
-### Variables
+### Variables （日本語訳：変数）
 
-Variables capture dynamic values.
+Variables capture dynamic values. （日本語訳：変数は動的な値を取得します。）
 
-**Built-in (enable as needed):**
-- Click Text, Click URL, Click ID, Click Classes
-- Page Path, Page URL, Page Hostname
-- Referrer
-- Form Element, Form ID
+**Built-in (enable as needed):** （日本語訳：**組み込み (必要に応じて有効化):**）
+- Click Text, Click URL, Click ID, Click Classes （日本語訳：「テキスト」をクリック、「URL」をクリック、「ID」をクリック、「クラス」をクリック）
+- Page Path, Page URL, Page Hostname （日本語訳：ページパス、ページURL、ページホスト名）
+- Referrer （日本語訳：参照元）
+- Form Element, Form ID （日本語訳：フォーム要素、フォームID）
 
-**User-defined:**
-- Data Layer variables
-- JavaScript variables
-- Lookup tables
-- RegEx tables
-- Constants
+**User-defined:** （日本語訳：**ユーザー定義:**）
+- Data Layer variables （日本語訳：データ層変数）
+- JavaScript variables （日本語訳：JavaScript 変数）
+- Lookup tables （日本語訳：ルックアップテーブル）
+- RegEx tables （日本語訳：正規表現テーブル）
+- Constants （日本語訳：定数）
 
 ---
 
-## Naming Conventions
+## Naming Conventions （日本語訳：命名規則）
 
-### Recommended Format
+### Recommended Format （日本語訳：推奨フォーマット）
 
 ```
 [Type] - [Description] - [Detail]
@@ -78,9 +78,9 @@ LT - Campaign Source Map
 
 ---
 
-## Data Layer Patterns
+## Data Layer Patterns （日本語訳：データ層パターン）
 
-### Basic Structure
+### Basic Structure （日本語訳：基本構造）
 
 ```javascript
 // Initialize (in <head> before GTM)
@@ -94,7 +94,7 @@ dataLayer.push({
 });
 ```
 
-### Page Load Data
+### Page Load Data （日本語訳：ページロードデータ）
 
 ```javascript
 // Set on page load (before GTM container)
@@ -110,7 +110,7 @@ dataLayer.push({
 });
 ```
 
-### Form Submission
+### Form Submission （日本語訳：フォームの送信）
 
 ```javascript
 document.querySelector('#contact-form').addEventListener('submit', function() {
@@ -122,7 +122,7 @@ document.querySelector('#contact-form').addEventListener('submit', function() {
 });
 ```
 
-### Button Click
+### Button Click （日本語訳：ボタンクリック）
 
 ```javascript
 document.querySelector('.cta-button').addEventListener('click', function() {
@@ -134,7 +134,7 @@ document.querySelector('.cta-button').addEventListener('click', function() {
 });
 ```
 
-### E-commerce Events
+### E-commerce Events （日本語訳：Eコマースイベント）
 
 ```javascript
 // Product view
@@ -188,33 +188,33 @@ dataLayer.push({
 
 ---
 
-## Common Tag Configurations
+## Common Tag Configurations （日本語訳：一般的なタグ構成）
 
-### GA4 Configuration Tag
+### GA4 Configuration Tag （日本語訳：GA4 構成タグ）
 
-**Tag Type:** Google Analytics: GA4 Configuration
+**Tag Type:** Google Analytics: GA4 Configuration （日本語訳：**タグ タイプ:** Google アナリティクス: GA4 構成）
 
-**Settings:**
-- Measurement ID: G-XXXXXXXX
-- Send page view: Checked (for pageviews)
-- User Properties: Add any user-level dimensions
+**Settings:** （日本語訳：**設定：**）
+- Measurement ID: G-XXXXXXXX （日本語訳：測定ID：G-XXXXXXXX）
+- Send page view: Checked (for pageviews) （日本語訳：ページビューの送信: チェック済み (ページビューの場合)）
+- User Properties: Add any user-level dimensions （日本語訳：ユーザー プロパティ: ユーザーレベルのディメンションを追加します。）
 
-**Trigger:** All Pages
+**Trigger:** All Pages （日本語訳：**トリガー:** すべてのページ）
 
-### GA4 Event Tag
+### GA4 Event Tag （日本語訳：GA4 イベントタグ）
 
-**Tag Type:** Google Analytics: GA4 Event
+**Tag Type:** Google Analytics: GA4 Event （日本語訳：**タグ タイプ:** Google アナリティクス: GA4 イベント）
 
-**Settings:**
-- Configuration Tag: Select your config tag
-- Event Name: {{DL - event_name}} or hardcode
-- Event Parameters: Add parameters from dataLayer
+**Settings:** （日本語訳：**設定：**）
+- Configuration Tag: Select your config tag （日本語訳：構成タグ: 構成タグを選択します）
+- Event Name: {{DL - event_name}} or hardcode （日本語訳：イベント名: {{DL -event_name}} またはハードコード）
+- Event Parameters: Add parameters from dataLayer （日本語訳：イベントパラメータ: dataLayerからパラメータを追加）
 
-**Trigger:** Custom Event with event name match
+**Trigger:** Custom Event with event name match （日本語訳：**トリガー:** イベント名が一致するカスタム イベント）
 
-### Facebook Pixel - Base
+### Facebook Pixel - Base （日本語訳：Facebook ピクセル - ベース）
 
-**Tag Type:** Custom HTML
+**Tag Type:** Custom HTML （日本語訳：**タグの種類:** カスタム HTML）
 
 ```html
 <script>
@@ -231,11 +231,11 @@ dataLayer.push({
 </script>
 ```
 
-**Trigger:** All Pages
+**Trigger:** All Pages （日本語訳：**トリガー:** すべてのページ）
 
-### Facebook Pixel - Event
+### Facebook Pixel - Event （日本語訳：Facebook ピクセル - イベント）
 
-**Tag Type:** Custom HTML
+**Tag Type:** Custom HTML （日本語訳：**タグの種類:** カスタム HTML）
 
 ```html
 <script>
@@ -245,61 +245,61 @@ dataLayer.push({
 </script>
 ```
 
-**Trigger:** Custom Event - form_submitted
+**Trigger:** Custom Event - form_submitted （日本語訳：**トリガー:** カスタム イベント - form_submitted）
 
 ---
 
-## Preview and Debug
+## Preview and Debug （日本語訳：プレビューとデバッグ）
 
-### Preview Mode
+### Preview Mode （日本語訳：プレビューモード）
 
-1. Click "Preview" in GTM
-2. Enter site URL
-3. GTM debug panel opens at bottom
+1. Click "Preview" in GTM （日本語訳：GTMの「プレビュー」をクリックします）
+2. Enter site URL （日本語訳：サイトのURLを入力してください）
+3. GTM debug panel opens at bottom （日本語訳：GTM デバッグ パネルが下部に開きます）
 
-**What to check:**
-- Tags fired on this event
-- Tags not fired (and why)
-- Variables and their values
-- Data layer contents
+**What to check:** （日本語訳：**確認事項:**）
+- Tags fired on this event （日本語訳：このイベントで起動されたタグ）
+- Tags not fired (and why) （日本語訳：タグが起動されない (およびその理由)）
+- Variables and their values （日本語訳：変数とその値）
+- Data layer contents （日本語訳：データ層の内容）
 
-### Debug Tips
+### Debug Tips （日本語訳：デバッグのヒント）
 
-**Tag not firing:**
-- Check trigger conditions
-- Verify data layer push
-- Check tag sequencing
+**Tag not firing:** （日本語訳：**タグが起動しない:**）
+- Check trigger conditions （日本語訳：トリガー条件を確認する）
+- Verify data layer push （日本語訳：データ層のプッシュを確認する）
+- Check tag sequencing （日本語訳：タグのシーケンスを確認する）
 
-**Wrong variable value:**
-- Check data layer structure
-- Verify variable path (nested objects)
-- Check timing (data may not exist yet)
+**Wrong variable value:** （日本語訳：**変数値が間違っています:**）
+- Check data layer structure （日本語訳：データ層構造を確認する）
+- Verify variable path (nested objects) （日本語訳：変数パスの検証 (ネストされたオブジェクト)）
+- Check timing (data may not exist yet) （日本語訳：タイミングを確認（データがまだ存在していない可能性があります））
 
-**Multiple firings:**
-- Check trigger uniqueness
-- Look for duplicate tags
-- Check tag firing options
+**Multiple firings:** （日本語訳：**複数回の発射:**）
+- Check trigger uniqueness （日本語訳：トリガーの一意性をチェックする）
+- Look for duplicate tags （日本語訳：重複したタグを探す）
+- Check tag firing options （日本語訳：タグ起動オプションを確認する）
 
 ---
 
-## Workspaces and Versioning
+## Workspaces and Versioning （日本語訳：ワークスペースとバージョン管理）
 
-### Workspaces
+### Workspaces （日本語訳：ワークスペース）
 
-Use workspaces for team collaboration:
-- Default workspace for production
-- Separate workspaces for large changes
-- Merge when ready
+Use workspaces for team collaboration: （日本語訳：チームコラボレーションにワークスペースを使用します。）
+- Default workspace for production （日本語訳：実稼働用のデフォルトのワークスペース）
+- Separate workspaces for large changes （日本語訳：大規模な変更には個別のワークスペースを使用する）
+- Merge when ready （日本語訳：準備ができたらマージ）
 
-### Version Management
+### Version Management （日本語訳：バージョン管理）
 
-**Best practices:**
-- Name every version descriptively
-- Add notes explaining changes
-- Review changes before publish
-- Keep production version noted
+**Best practices:** （日本語訳：**ベストプラクティス:**）
+- Name every version descriptively （日本語訳：各バージョンにわかりやすい名前を付ける）
+- Add notes explaining changes （日本語訳：変更点を説明するメモを追加する）
+- Review changes before publish （日本語訳：公開する前に変更を確認する）
+- Keep production version noted （日本語訳：製品バージョンをメモしておきます）
 
-**Version notes example:**
+**Version notes example:** （日本語訳：**バージョンメモの例:**）
 ```
 v15: Added purchase conversion tracking
 - New tag: GA4 - Event - Purchase
@@ -310,9 +310,9 @@ v15: Added purchase conversion tracking
 
 ---
 
-## Consent Management
+## Consent Management （日本語訳：同意管理）
 
-### Consent Mode Integration
+### Consent Mode Integration （日本語訳：同意モードの統合）
 
 ```javascript
 // Default state (before consent)
@@ -330,34 +330,34 @@ function grantConsent() {
 }
 ```
 
-### GTM Consent Overview
+### GTM Consent Overview （日本語訳：GTM 同意の概要）
 
-1. Enable Consent Overview in Admin
-2. Configure consent for each tag
-3. Tags respect consent state automatically
+1. Enable Consent Overview in Admin （日本語訳：管理画面で同意概要を有効にする）
+2. Configure consent for each tag （日本語訳：タグごとに同意を構成する）
+3. Tags respect consent state automatically （日本語訳：タグは自動的に同意状態を尊重します）
 
 ---
 
-## Advanced Patterns
+## Advanced Patterns （日本語訳：高度なパターン）
 
-### Tag Sequencing
+### Tag Sequencing （日本語訳：タグのシーケンス）
 
-**Setup tags to fire in order:**
-Tag Configuration > Advanced Settings > Tag Sequencing
+**Setup tags to fire in order:** （日本語訳：**タグを順番に起動するように設定します:**）
+Tag Configuration > Advanced Settings > Tag Sequencing （日本語訳：タグの設定 > 詳細設定 > タグの順序付け）
 
-**Use cases:**
-- Config tag before event tags
-- Pixel initialization before tracking
-- Cleanup after conversion
+**Use cases:** （日本語訳：**使用例:**）
+- Config tag before event tags （日本語訳：イベントタグの前の設定タグ）
+- Pixel initialization before tracking （日本語訳：追跡前のピクセルの初期化）
+- Cleanup after conversion （日本語訳：変換後のクリーンアップ）
 
-### Exception Handling
+### Exception Handling （日本語訳：例外処理）
 
-**Trigger exceptions** - Prevent tag from firing:
-- Exclude certain pages
-- Exclude internal traffic
-- Exclude during testing
+**Trigger exceptions** - Prevent tag from firing: （日本語訳：**例外のトリガー** - タグの起動を防止します。）
+- Exclude certain pages （日本語訳：特定のページを除外する）
+- Exclude internal traffic （日本語訳：内部トラフィックを除外する）
+- Exclude during testing （日本語訳：テスト中に除外する）
 
-### Custom JavaScript Variables
+### Custom JavaScript Variables （日本語訳：カスタム JavaScript 変数）
 
 ```javascript
 // Get URL parameter
