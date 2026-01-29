@@ -1,25 +1,25 @@
-# Segment （日本語訳：セグメント）
+# Segment （セグメント）
 
-Customer data platform for collecting, routing, and activating user data. （日本語訳：ユーザー データを収集、ルーティング、アクティブ化するための顧客データ プラットフォーム。）
+Customer data platform for collecting, routing, and activating user data. （ユーザー データを収集、ルーティング、アクティブ化するための顧客データ プラットフォーム。）
 
-## Capabilities （日本語訳：能力）
+## Capabilities （能力）
 
-| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
+| Integration（統合） | Available（利用可能） | Notes（注意事項） |
 |-------------|-----------|-------|
-| API（日本語訳：API） | ✓ | Tracking API, Profile API, Config API（日本語訳：トラッキング API、プロファイル API、構成 API） |
-| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
-| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
-| SDK（日本語訳：SDK） | ✓ | analytics.js, iOS, Android, server libraries（日本語訳：Analytics.js、iOS、Android、サーバー ライブラリ） |
+| API（API） | ✓ | Tracking API, Profile API, Config API（トラッキング API、プロファイル API、構成 API） |
+| MCP（MCP） | - | Not available（利用不可） |
+| CLI（CLI） | - | Not available（利用不可） |
+| SDK（SDK） | ✓ | analytics.js, iOS, Android, server libraries（Analytics.js、iOS、Android、サーバー ライブラリ） |
 
-## Authentication （日本語訳：認証）
+## Authentication （認証）
 
-- **Tracking**: Write Key (per source) （日本語訳：**トラッキング**: 書き込みキー (ソースごと)）
-- **API**: Access Token (OAuth 2.0) （日本語訳：**API**: アクセス トークン (OAuth 2.0)）
-- **Header**: `Authorization: Bearer {access_token}` （日本語訳：**ヘッダー**: `Authorization: Bearer {access_token}`）
+- **Tracking**: Write Key (per source) （**トラッキング**: 書き込みキー (ソースごと)）
+- **API**: Access Token (OAuth 2.0) （**API**: アクセス トークン (OAuth 2.0)）
+- **Header**: `Authorization: Bearer {access_token}` （**ヘッダー**: `Authorization: Bearer {access_token}`）
 
-## Common Agent Operations （日本語訳：エージェントの共通操作）
+## Common Agent Operations （エージェントの共通操作）
 
-### Track event （日本語訳：イベントを追跡する）
+### Track event （イベントを追跡する）
 
 ```bash
 POST https://api.segment.io/v1/track
@@ -36,7 +36,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Identify user （日本語訳：ユーザーの識別）
+### Identify user （ユーザーの識別）
 
 ```bash
 POST https://api.segment.io/v1/identify
@@ -53,7 +53,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Track page view （日本語訳：ページビューを追跡する）
+### Track page view （ページビューを追跡する）
 
 ```bash
 POST https://api.segment.io/v1/page
@@ -70,7 +70,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Batch events （日本語訳：バッチイベント）
+### Batch events （バッチイベント）
 
 ```bash
 POST https://api.segment.io/v1/batch
@@ -85,7 +85,7 @@ Authorization: Basic {base64(write_key:)}
 }
 ```
 
-### Get user profile (Profile API) （日本語訳：ユーザープロファイルの取得（プロファイルAPI））
+### Get user profile (Profile API) （ユーザープロファイルの取得（プロファイルAPI））
 
 ```bash
 GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles/user_id:{user_id}/traits
@@ -93,7 +93,7 @@ GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles
 Authorization: Basic {base64(access_token:)}
 ```
 
-### Get user events （日本語訳：ユーザーイベントを取得する）
+### Get user events （ユーザーイベントを取得する）
 
 ```bash
 GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles/user_id:{user_id}/events
@@ -101,7 +101,7 @@ GET https://profiles.segment.com/v1/spaces/{space_id}/collections/users/profiles
 Authorization: Basic {base64(access_token:)}
 ```
 
-## JavaScript SDK （日本語訳：JavaScript SDK）
+## JavaScript SDK （JavaScript SDK）
 
 ```javascript
 // Initialize
@@ -122,38 +122,38 @@ analytics.track('Feature Used', {
 analytics.page('Pricing');
 ```
 
-## Key Concepts （日本語訳：主要な概念）
+## Key Concepts （主要な概念）
 
-- **Sources** - Where data comes from (website, app, server) （日本語訳：**ソース** - データの取得元 (Web サイト、アプリ、サーバー)）
-- **Destinations** - Where data goes (analytics, CRM, ads) （日本語訳：**宛先** - データの送信先 (分析、CRM、広告)）
-- **Tracking Plan** - Schema for events and properties （日本語訳：**追跡計画** - イベントとプロパティのスキーマ）
-- **Protocols** - Data governance and validation （日本語訳：**プロトコル** - データ ガバナンスと検証）
-- **Personas** - Unified user profiles （日本語訳：**ペルソナ** - 統合されたユーザー プロファイル）
-- **Audiences** - Computed user segments （日本語訳：**視聴者** - 計算されたユーザー セグメント）
+- **Sources** - Where data comes from (website, app, server) （**ソース** - データの取得元 (Web サイト、アプリ、サーバー)）
+- **Destinations** - Where data goes (analytics, CRM, ads) （**宛先** - データの送信先 (分析、CRM、広告)）
+- **Tracking Plan** - Schema for events and properties （**追跡計画** - イベントとプロパティのスキーマ）
+- **Protocols** - Data governance and validation （**プロトコル** - データ ガバナンスと検証）
+- **Personas** - Unified user profiles （**ペルソナ** - 統合されたユーザー プロファイル）
+- **Audiences** - Computed user segments （**視聴者** - 計算されたユーザー セグメント）
 
-## Common Destinations （日本語訳：一般的な目的地）
+## Common Destinations （一般的な目的地）
 
-- Analytics: GA4, Mixpanel, Amplitude （日本語訳：分析: GA4、ミックスパネル、振幅）
-- CRM: HubSpot, Salesforce （日本語訳：CRM: HubSpot、Salesforce）
-- Email: Customer.io, Mailchimp （日本語訳：電子メール: Customer.io、Mailchimp）
-- Ads: Google Ads, Meta （日本語訳：広告: Google 広告、メタ）
-- Data Warehouse: BigQuery, Snowflake （日本語訳：データ ウェアハウス: BigQuery、Snowflake）
+- Analytics: GA4, Mixpanel, Amplitude （分析: GA4、ミックスパネル、振幅）
+- CRM: HubSpot, Salesforce （CRM: HubSpot、Salesforce）
+- Email: Customer.io, Mailchimp （電子メール: Customer.io、Mailchimp）
+- Ads: Google Ads, Meta （広告: Google 広告、メタ）
+- Data Warehouse: BigQuery, Snowflake （データ ウェアハウス: BigQuery、Snowflake）
 
-## When to Use （日本語訳：いつ使用するか）
+## When to Use （いつ使用するか）
 
-- Centralizing event tracking （日本語訳：イベント追跡の一元化）
-- Routing data to multiple tools （日本語訳：データを複数のツールにルーティングする）
-- Maintaining consistent tracking （日本語訳：一貫した追跡を維持する）
-- Building unified user profiles （日本語訳：統合されたユーザープロファイルの構築）
-- Syncing audiences across platforms （日本語訳：プラットフォーム間で視聴者を同期する）
+- Centralizing event tracking （イベント追跡の一元化）
+- Routing data to multiple tools （データを複数のツールにルーティングする）
+- Maintaining consistent tracking （一貫した追跡を維持する）
+- Building unified user profiles （統合されたユーザープロファイルの構築）
+- Syncing audiences across platforms （プラットフォーム間で視聴者を同期する）
 
-## Rate Limits （日本語訳：レート制限）
+## Rate Limits （レート制限）
 
-- 500 requests/second per source （日本語訳：ソースごとに 500 リクエスト/秒）
-- Batch up to 500KB or 32KB per event （日本語訳：イベントあたり最大 500 KB または 32 KB のバッチ）
+- 500 requests/second per source （ソースごとに 500 リクエスト/秒）
+- Batch up to 500KB or 32KB per event （イベントあたり最大 500 KB または 32 KB のバッチ）
 
-## Relevant Skills （日本語訳：関連するスキル）
+## Relevant Skills （関連するスキル）
 
-- analytics-tracking （日本語訳：分析追跡）
-- email-sequence （日本語訳：電子メールシーケンス）
-- paid-ads （日本語訳：有料広告）
+- analytics-tracking （分析追跡）
+- email-sequence （電子メールシーケンス）
+- paid-ads （有料広告）

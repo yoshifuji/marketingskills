@@ -1,10 +1,10 @@
-# Section Templates for Competitor Pages （日本語訳：競合他社のページのセクション テンプレート）
+# Section Templates for Competitor Pages （競合他社のページのセクション テンプレート）
 
-Ready-to-use templates for each section of competitor comparison pages. （日本語訳：競合他社比較ページの各セクションにすぐに使用できるテンプレート。）
+Ready-to-use templates for each section of competitor comparison pages. （競合他社比較ページの各セクションにすぐに使用できるテンプレート。）
 
-## TL;DR Summary （日本語訳：TL;DR 概要）
+## TL;DR Summary （TL;DR 概要）
 
-Start every page with a quick summary for scanners: （日本語訳：各ページはスキャナーの簡単な概要から始まります。）
+Start every page with a quick summary for scanners: （各ページはスキャナーの簡単な概要から始まります。）
 
 ```markdown
 **TL;DR**: [Competitor] excels at [strength] but struggles with [weakness].
@@ -14,9 +14,9 @@ Choose [Competitor] if [their ideal use case]. Choose [You] if [your ideal use c
 
 ---
 
-## Paragraph Comparison (Not Just Tables) （日本語訳：段落の比較 (表だけではない)）
+## Paragraph Comparison (Not Just Tables) （段落の比較 (表だけではない)）
 
-For each major dimension, write a paragraph: （日本語訳：主要な次元ごとに段落を書きます。）
+For each major dimension, write a paragraph: （主要な次元ごとに段落を書きます。）
 
 ```markdown
 ## Features
@@ -32,9 +32,9 @@ Teams who [specific need] often find this more effective.
 
 ---
 
-## Feature Comparison Section （日本語訳：機能比較セクション）
+## Feature Comparison Section （機能比較セクション）
 
-Go beyond checkmarks: （日本語訳：チェックマークを超えてください:）
+Go beyond checkmarks: （チェックマークを超えてください:）
 
 ```markdown
 ## Feature Comparison
@@ -54,7 +54,7 @@ Go beyond checkmarks: （日本語訳：チェックマークを超えてくだ�
 
 ---
 
-## Pricing Comparison Section （日本語訳：価格比較セクション）
+## Pricing Comparison Section （価格比較セクション）
 
 ```markdown
 ## Pricing
@@ -79,7 +79,7 @@ $X/year while [Your product] costs $Y/year, with [key differences in what you ge
 
 ---
 
-## Service & Support Comparison （日本語訳：サービスとサポートの比較）
+## Service & Support Comparison （サービスとサポートの比較）
 
 ```markdown
 ## Service & Support
@@ -102,7 +102,7 @@ response time, dedicated CSM, implementation help].
 
 ---
 
-## Who It's For Section （日本語訳：対象者セクション）
+## Who It's For Section （対象者セクション）
 
 ```markdown
 ## Who Should Choose [Competitor]
@@ -128,7 +128,7 @@ response time, dedicated CSM, implementation help].
 
 ---
 
-## Migration Section （日本語訳：移行セクション）
+## Migration Section （移行セクション）
 
 ```markdown
 ## Switching from [Competitor]
@@ -157,9 +157,9 @@ We offer [migration support details]:
 
 ---
 
-## Social Proof Section （日本語訳：社会的証明セクション）
+## Social Proof Section （社会的証明セクション）
 
-Focus on switchers: （日本語訳：スイッチャーに焦点を当てる:）
+Focus on switchers: （スイッチャーに焦点を当てる:）
 
 ```markdown
 ## What Customers Say
@@ -179,34 +179,34 @@ Focus on switchers: （日本語訳：スイッチャーに焦点を当てる:�
 
 ---
 
-## Comparison Table Best Practices （日本語訳：比較表のベストプラクティス）
+## Comparison Table Best Practices （比較表のベストプラクティス）
 
-### Beyond Checkmarks （日本語訳：チェックマークを超えて）
+### Beyond Checkmarks （チェックマークを超えて）
 
-Instead of: （日本語訳：の代わりに：）
-| Feature（日本語訳：特徴） | You（日本語訳：あなた） | Competitor（日本語訳：競合他社） |
+Instead of: （の代わりに：）
+| Feature（特徴） | You（あなた） | Competitor（競合他社） |
 |---------|-----|-----------|
-| Feature A（日本語訳：機能A） | ✓ | ✓ |
-| Feature B（日本語訳：機能B） | ✓ | ✗ |
+| Feature A（機能A） | ✓ | ✓ |
+| Feature B（機能B） | ✓ | ✗ |
 
-Do this: （日本語訳：これを実行します:）
-| Feature（日本語訳：特徴） | You（日本語訳：あなた） | Competitor（日本語訳：競合他社） |
+Do this: （これを実行します:）
+| Feature（特徴） | You（あなた） | Competitor（競合他社） |
 |---------|-----|-----------|
-| Feature A（日本語訳：機能A） | Full support with [detail]（日本語訳：[詳細]で完全サポート） | Basic support, [limitation]（日本語訳：基本サポート、[制限]） |
-| Feature B（日本語訳：機能B） | [Specific capability]（日本語訳：【具体的な能力】） | Not available（日本語訳：利用不可） |
+| Feature A（機能A） | Full support with [detail]（[詳細]で完全サポート） | Basic support, [limitation]（基本サポート、[制限]） |
+| Feature B（機能B） | [Specific capability]（【具体的な能力】） | Not available（利用不可） |
 
-### Organize by Category （日本語訳：カテゴリ別に整理する）
+### Organize by Category （カテゴリ別に整理する）
 
-Group features into meaningful categories: （日本語訳：機能を意味のあるカテゴリにグループ化します。）
-- Core functionality （日本語訳：コア機能）
-- Collaboration （日本語訳：コラボレーション）
-- Integrations （日本語訳：統合）
-- Security & compliance （日本語訳：セキュリティとコンプライアンス）
-- Support & service （日本語訳：サポートとサービス）
+Group features into meaningful categories: （機能を意味のあるカテゴリにグループ化します。）
+- Core functionality （コア機能）
+- Collaboration （コラボレーション）
+- Integrations （統合）
+- Security & compliance （セキュリティとコンプライアンス）
+- Support & service （サポートとサービス）
 
-### Include Ratings Where Useful （日本語訳：役立つ場合には評価を含める）
+### Include Ratings Where Useful （役立つ場合には評価を含める）
 
-| Category（日本語訳：カテゴリ） | You（日本語訳：あなた） | Competitor（日本語訳：競合他社） | Notes（日本語訳：注意事項） |
+| Category（カテゴリ） | You（あなた） | Competitor（競合他社） | Notes（注意事項） |
 |----------|-----|-----------|-------|
-| Ease of use（日本語訳：使いやすさ） | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | [Brief note]（日本語訳：【簡単なメモ】） |
-| Feature depth（日本語訳：特徴の深さ） | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | [Brief note]（日本語訳：【簡単なメモ】） |
+| Ease of use（使いやすさ） | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | [Brief note]（【簡単なメモ】） |
+| Feature depth（特徴の深さ） | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | [Brief note]（【簡単なメモ】） |

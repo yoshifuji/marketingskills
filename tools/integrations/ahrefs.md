@@ -1,25 +1,25 @@
-# Ahrefs （日本語訳：アーレフス）
+# Ahrefs （アーレフス）
 
-SEO toolset for backlink analysis, keyword research, and competitive research. （日本語訳：バックリンク分析、キーワード調査、競合調査のための SEO ツールセット。）
+SEO toolset for backlink analysis, keyword research, and competitive research. （バックリンク分析、キーワード調査、競合調査のための SEO ツールセット。）
 
-## Capabilities （日本語訳：能力）
+## Capabilities （能力）
 
-| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
+| Integration（統合） | Available（利用可能） | Notes（注意事項） |
 |-------------|-----------|-------|
-| API（日本語訳：API） | ✓ | REST API for Site Explorer, Keywords Explorer（日本語訳：サイト エクスプローラー、キーワード エクスプローラー用の REST API） |
-| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
-| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
-| SDK（日本語訳：SDK） | - | API-only（日本語訳：APIのみ） |
+| API（API） | ✓ | REST API for Site Explorer, Keywords Explorer（サイト エクスプローラー、キーワード エクスプローラー用の REST API） |
+| MCP（MCP） | - | Not available（利用不可） |
+| CLI（CLI） | - | Not available（利用不可） |
+| SDK（SDK） | - | API-only（APIのみ） |
 
-## Authentication （日本語訳：認証）
+## Authentication （認証）
 
-- **Type**: API Token （日本語訳：**タイプ**: API トークン）
-- **Header**: `Authorization: Bearer {api_token}` （日本語訳：**ヘッダー**: `Authorization: Bearer {api_token}`）
-- **Get token**: Account Settings > API in Ahrefs dashboard （日本語訳：**トークンの取得**: Ahrefs ダッシュボードの [アカウント設定] > [API]）
+- **Type**: API Token （**タイプ**: API トークン）
+- **Header**: `Authorization: Bearer {api_token}` （**ヘッダー**: `Authorization: Bearer {api_token}`）
+- **Get token**: Account Settings > API in Ahrefs dashboard （**トークンの取得**: Ahrefs ダッシュボードの [アカウント設定] > [API]）
 
-## Common Agent Operations （日本語訳：エージェントの共通操作）
+## Common Agent Operations （エージェントの共通操作）
 
-### Domain rating （日本語訳：ドメインの評価）
+### Domain rating （ドメインの評価）
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/domain-rating?target=example.com
@@ -27,7 +27,7 @@ GET https://api.ahrefs.com/v3/site-explorer/domain-rating?target=example.com
 Authorization: Bearer {api_token}
 ```
 
-### Backlinks overview （日本語訳：バックリンクの概要）
+### Backlinks overview （バックリンクの概要）
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/backlinks-stats?target=example.com&mode=domain
@@ -35,7 +35,7 @@ GET https://api.ahrefs.com/v3/site-explorer/backlinks-stats?target=example.com&m
 Authorization: Bearer {api_token}
 ```
 
-### Referring domains （日本語訳：参照元ドメイン）
+### Referring domains （参照元ドメイン）
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/refdomains?target=example.com&mode=domain&limit=100
@@ -43,7 +43,7 @@ GET https://api.ahrefs.com/v3/site-explorer/refdomains?target=example.com&mode=d
 Authorization: Bearer {api_token}
 ```
 
-### Backlinks list （日本語訳：バックリンクリスト）
+### Backlinks list （バックリンクリスト）
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/backlinks?target=example.com&mode=domain&limit=100
@@ -51,7 +51,7 @@ GET https://api.ahrefs.com/v3/site-explorer/backlinks?target=example.com&mode=do
 Authorization: Bearer {api_token}
 ```
 
-### Organic keywords （日本語訳：オーガニックキーワード）
+### Organic keywords （オーガニックキーワード）
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/organic-keywords?target=example.com&mode=domain&country=us&limit=100
@@ -59,7 +59,7 @@ GET https://api.ahrefs.com/v3/site-explorer/organic-keywords?target=example.com&
 Authorization: Bearer {api_token}
 ```
 
-### Top pages （日本語訳：トップページ）
+### Top pages （トップページ）
 
 ```bash
 GET https://api.ahrefs.com/v3/site-explorer/top-pages?target=example.com&mode=domain&country=us&limit=50
@@ -67,7 +67,7 @@ GET https://api.ahrefs.com/v3/site-explorer/top-pages?target=example.com&mode=do
 Authorization: Bearer {api_token}
 ```
 
-### Keyword overview （日本語訳：キーワードの概要）
+### Keyword overview （キーワードの概要）
 
 ```bash
 GET https://api.ahrefs.com/v3/keywords-explorer/overview?keywords=keyword1,keyword2&country=us
@@ -75,7 +75,7 @@ GET https://api.ahrefs.com/v3/keywords-explorer/overview?keywords=keyword1,keywo
 Authorization: Bearer {api_token}
 ```
 
-### Keyword suggestions （日本語訳：キーワードの提案）
+### Keyword suggestions （キーワードの提案）
 
 ```bash
 GET https://api.ahrefs.com/v3/keywords-explorer/matching-terms?keyword=seed+keyword&country=us&limit=100
@@ -83,7 +83,7 @@ GET https://api.ahrefs.com/v3/keywords-explorer/matching-terms?keyword=seed+keyw
 Authorization: Bearer {api_token}
 ```
 
-### SERP overview （日本語訳：SERPの概要）
+### SERP overview （SERPの概要）
 
 ```bash
 GET https://api.ahrefs.com/v3/keywords-explorer/serp-overview?keyword=target+keyword&country=us
@@ -91,52 +91,52 @@ GET https://api.ahrefs.com/v3/keywords-explorer/serp-overview?keyword=target+key
 Authorization: Bearer {api_token}
 ```
 
-## Key Metrics （日本語訳：主要な指標）
+## Key Metrics （主要な指標）
 
-### Domain Metrics （日本語訳：ドメインメトリクス）
-- `domain_rating` - Domain Rating (DR) （日本語訳：`domain_rating` - ドメイン評価 (DR)）
-- `ahrefs_rank` - Ahrefs Rank （日本語訳：`ahrefs_rank` - Ahrefs ランク）
-- `referring_domains` - Referring domains count （日本語訳：`referring_domains` - 参照元ドメインの数）
-- `backlinks` - Total backlinks （日本語訳：`backlinks` - バックリンクの合計数）
-- `organic_traffic` - Estimated organic traffic （日本語訳：`organic_traffic` - 推定オーガニックトラフィック）
+### Domain Metrics （ドメインメトリクス）
+- `domain_rating` - Domain Rating (DR) （`domain_rating` - ドメイン評価 (DR)）
+- `ahrefs_rank` - Ahrefs Rank （`ahrefs_rank` - Ahrefs ランク）
+- `referring_domains` - Referring domains count （`referring_domains` - 参照元ドメインの数）
+- `backlinks` - Total backlinks （`backlinks` - バックリンクの合計数）
+- `organic_traffic` - Estimated organic traffic （`organic_traffic` - 推定オーガニックトラフィック）
 
-### Keyword Metrics （日本語訳：キーワード指標）
-- `volume` - Monthly search volume （日本語訳：`volume` - 月間検索ボリューム）
-- `keyword_difficulty` - KD score (0-100) （日本語訳：`keyword_difficulty` - KD スコア (0-100)）
-- `cpc` - Cost per click （日本語訳：`cpc` - クリックあたりのコスト）
-- `clicks` - Estimated monthly clicks （日本語訳：`clicks` - 推定月間クリック数）
-- `global_volume` - Global search volume （日本語訳：`global_volume` - グローバル検索ボリューム）
+### Keyword Metrics （キーワード指標）
+- `volume` - Monthly search volume （`volume` - 月間検索ボリューム）
+- `keyword_difficulty` - KD score (0-100) （`keyword_difficulty` - KD スコア (0-100)）
+- `cpc` - Cost per click （`cpc` - クリックあたりのコスト）
+- `clicks` - Estimated monthly clicks （`clicks` - 推定月間クリック数）
+- `global_volume` - Global search volume （`global_volume` - グローバル検索ボリューム）
 
-### Backlink Fields （日本語訳：バックリンクフィールド）
-- `url_from` - Source URL （日本語訳：`url_from` - ソース URL）
-- `url_to` - Target URL （日本語訳：`url_to` - ターゲット URL）
-- `anchor` - Anchor text （日本語訳：`anchor` - アンカーテキスト）
-- `domain_rating_source` - Source DR （日本語訳：`domain_rating_source` - ソース DR）
-- `first_seen` - First discovery date （日本語訳：`first_seen` - 最初の発見日）
+### Backlink Fields （バックリンクフィールド）
+- `url_from` - Source URL （`url_from` - ソース URL）
+- `url_to` - Target URL （`url_to` - ターゲット URL）
+- `anchor` - Anchor text （`anchor` - アンカーテキスト）
+- `domain_rating_source` - Source DR （`domain_rating_source` - ソース DR）
+- `first_seen` - First discovery date （`first_seen` - 最初の発見日）
 
-## Modes （日本語訳：モード）
+## Modes （モード）
 
-- `domain` - Entire domain （日本語訳：`domain` - ドメイン全体）
-- `subdomains` - Domain + subdomains （日本語訳：`subdomains` - ドメイン + サブドメイン）
-- `prefix` - URL prefix （日本語訳：`prefix` - URL プレフィックス）
-- `exact` - Exact URL （日本語訳：`exact` - 正確な URL）
+- `domain` - Entire domain （`domain` - ドメイン全体）
+- `subdomains` - Domain + subdomains （`subdomains` - ドメイン + サブドメイン）
+- `prefix` - URL prefix （`prefix` - URL プレフィックス）
+- `exact` - Exact URL （`exact` - 正確な URL）
 
-## When to Use （日本語訳：いつ使用するか）
+## When to Use （いつ使用するか）
 
-- Backlink analysis （日本語訳：バックリンク分析）
-- Link building research （日本語訳：リンクビルディングの調査）
-- Keyword research （日本語訳：キーワード調査）
-- Competitive analysis （日本語訳：競合分析）
-- Content gap analysis （日本語訳：コンテンツギャップ分析）
-- Site audits （日本語訳：現場監査）
+- Backlink analysis （バックリンク分析）
+- Link building research （リンクビルディングの調査）
+- Keyword research （キーワード調査）
+- Competitive analysis （競合分析）
+- Content gap analysis （コンテンツギャップ分析）
+- Site audits （現場監査）
 
-## Rate Limits （日本語訳：レート制限）
+## Rate Limits （レート制限）
 
-- Varies by plan （日本語訳：プランにより異なります）
-- 500-5000 rows per request （日本語訳：リクエストあたり 500 ～ 5000 行）
+- Varies by plan （プランにより異なります）
+- 500-5000 rows per request （リクエストあたり 500 ～ 5000 行）
 
-## Relevant Skills （日本語訳：関連するスキル）
+## Relevant Skills （関連するスキル）
 
-- seo-audit （日本語訳：SEO監査）
-- content-strategy （日本語訳：コンテンツ戦略）
-- competitor-alternatives （日本語訳：競合他社の代替品）
+- seo-audit （SEO監査）
+- content-strategy （コンテンツ戦略）
+- competitor-alternatives （競合他社の代替品）

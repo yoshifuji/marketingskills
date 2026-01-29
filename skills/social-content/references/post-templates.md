@@ -1,10 +1,10 @@
-# Post Format Templates （日本語訳：投稿フォーマットテンプレート）
+# Post Format Templates （投稿フォーマットテンプレート）
 
-Ready-to-use templates for different platforms and content types. （日本語訳：さまざまなプラットフォームやコンテンツ タイプにすぐに使用できるテンプレート。）
+Ready-to-use templates for different platforms and content types. （さまざまなプラットフォームやコンテンツ タイプにすぐに使用できるテンプレート。）
 
-## LinkedIn Post Templates （日本語訳：LinkedIn 投稿テンプレート）
+## LinkedIn Post Templates （LinkedIn 投稿テンプレート）
 
-### The Story Post （日本語訳：ストーリー投稿）
+### The Story Post （ストーリー投稿）
 ```
 [Hook: Unexpected outcome or lesson]
 
@@ -23,7 +23,7 @@ Ready-to-use templates for different platforms and content types. （日本語�
 [Question to prompt engagement]
 ```
 
-### The Contrarian Take （日本語訳：逆張りの見方）
+### The Contrarian Take （逆張りの見方）
 ```
 [Unpopular opinion stated boldly]
 
@@ -38,7 +38,7 @@ Here's why:
 [Invite discussion: "Am I wrong?"]
 ```
 
-### The List Post （日本語訳：リスト投稿）
+### The List Post （リスト投稿）
 ```
 [X things I learned about [topic] after [credibility builder]:
 
@@ -53,7 +53,7 @@ Here's why:
 Which resonates most with you?
 ```
 
-### The How-To （日本語訳：ハウツー）
+### The How-To （ハウツー）
 ```
 How to [achieve outcome] in [timeframe]:
 
@@ -73,9 +73,9 @@ Step 3: [Action]
 
 ---
 
-## Twitter/X Thread Templates （日本語訳：Twitter/X スレッド テンプレート）
+## Twitter/X Thread Templates （Twitter/X スレッド テンプレート）
 
-### The Tutorial Thread （日本語訳：チュートリアル スレッド）
+### The Tutorial Thread （チュートリアル スレッド）
 ```
 Tweet 1: [Hook + promise of value]
 
@@ -88,7 +88,7 @@ Final tweet: [Summary + CTA]
 "If this was helpful, follow me for more on [topic]"
 ```
 
-### The Story Thread （日本語訳：ストーリースレッド）
+### The Story Thread （ストーリースレッド）
 ```
 Tweet 1: [Intriguing hook]
 
@@ -101,7 +101,7 @@ Tweet 7: [Resolution and lesson]
 Final tweet: [Takeaway + engagement ask]
 ```
 
-### The Breakdown Thread （日本語訳：ブレイクダウンスレッド）
+### The Breakdown Thread （ブレイクダウンスレッド）
 ```
 Tweet 1: [Company/person] just [did thing].
 
@@ -116,9 +116,9 @@ Tweet 7: [Your key takeaway]
 
 ---
 
-## Instagram Templates （日本語訳：Instagram テンプレート）
+## Instagram Templates （Instagram テンプレート）
 
-### The Carousel Hook （日本語訳：カルーセルフック）
+### The Carousel Hook （カルーセルフック）
 ```
 [Slide 1: Bold statement or question]
 [Slides 2-9: One point per slide, visual + text]
@@ -127,7 +127,7 @@ Tweet 7: [Your key takeaway]
 Caption: [Expand on the topic, add context, include CTA]
 ```
 
-### The Reel Script （日本語訳：リールスクリプト）
+### The Reel Script （リールスクリプト）
 ```
 Hook (0-2 sec): [Pattern interrupt or bold claim]
 Setup (2-5 sec): [Context for the tip]
@@ -137,35 +137,35 @@ CTA (25-30 sec): [Follow, comment, share, link]
 
 ---
 
-## Hook Formulas （日本語訳：フックの公式）
+## Hook Formulas （フックの公式）
 
-The first line determines whether anyone reads the rest. （日本語訳：最初の行は、残りを誰かが読むかどうかを決定します。）
+The first line determines whether anyone reads the rest. （最初の行は、残りを誰かが読むかどうかを決定します。）
 
-### Curiosity Hooks （日本語訳：好奇心フック）
-- "I was wrong about [common belief]." （日本語訳：「[通説]について私は間違っていました。」）
-- "The real reason [outcome] happens isn't what you think." （日本語訳：「[結果]が起こる本当の理由は、あなたが考えていることではありません。」）
-- "[Impressive result] — and it only took [surprisingly short time]." （日本語訳：「[印象的な結果] — しかも、[驚くほど短い時間] しかかかりませんでした。」）
-- "Nobody talks about [insider knowledge]." （日本語訳：「[内部情報] については誰も話しません。」）
+### Curiosity Hooks （好奇心フック）
+- "I was wrong about [common belief]." （「[通説]について私は間違っていました。」）
+- "The real reason [outcome] happens isn't what you think." （「[結果]が起こる本当の理由は、あなたが考えていることではありません。」）
+- "[Impressive result] — and it only took [surprisingly short time]." （「[印象的な結果] — しかも、[驚くほど短い時間] しかかかりませんでした。」）
+- "Nobody talks about [insider knowledge]." （「[内部情報] については誰も話しません。」）
 
-### Story Hooks （日本語訳：ストーリーフック）
-- "Last week, [unexpected thing] happened." （日本語訳：「先週、[予期せぬことが]起こりました。」）
-- "I almost [big mistake/failure]." （日本語訳：「危うく[大きな間違い/失敗]をするところでした。」）
-- "3 years ago, I [past state]. Today, [current state]." （日本語訳：「3年前の私は【過去の状態】。今日は【現在の状態】。」）
-- "[Person] told me something I'll never forget." （日本語訳：「[人]は私に決して忘れられないことを言いました。」）
+### Story Hooks （ストーリーフック）
+- "Last week, [unexpected thing] happened." （「先週、[予期せぬことが]起こりました。」）
+- "I almost [big mistake/failure]." （「危うく[大きな間違い/失敗]をするところでした。」）
+- "3 years ago, I [past state]. Today, [current state]." （「3年前の私は【過去の状態】。今日は【現在の状態】。」）
+- "[Person] told me something I'll never forget." （「[人]は私に決して忘れられないことを言いました。」）
 
-### Value Hooks （日本語訳：値フック）
-- "How to [desirable outcome] (without [common pain]):" （日本語訳：「（[一般的な痛み]を避けて）[望ましい結果]を得る方法:」）
-- "[Number] [things] that [outcome]:" （日本語訳：「[結果]がもたらす[数]の[こと]:」）
-- "The simplest way to [outcome]:" （日本語訳：「[結果]を得る最も簡単な方法:」）
-- "Stop [common mistake]. Do this instead:" （日本語訳：「[よくある間違い] はやめてください。代わりに次のようにしてください。」）
+### Value Hooks （値フック）
+- "How to [desirable outcome] (without [common pain]):" （「（[一般的な痛み]を避けて）[望ましい結果]を得る方法:」）
+- "[Number] [things] that [outcome]:" （「[結果]がもたらす[数]の[こと]:」）
+- "The simplest way to [outcome]:" （「[結果]を得る最も簡単な方法:」）
+- "Stop [common mistake]. Do this instead:" （「[よくある間違い] はやめてください。代わりに次のようにしてください。」）
 
-### Contrarian Hooks （日本語訳：逆張りフック）
-- "Unpopular opinion: [bold statement]" （日本語訳：「不人気な意見: [大胆な発言]」）
-- "[Common advice] is wrong. Here's why:" （日本語訳：「[一般的なアドバイス] は間違っています。その理由は次のとおりです。」）
-- "I stopped [common practice] and [positive result]." （日本語訳：「私は（一般的なやり方）と（前向きな結果）をやめました。」）
-- "Everyone says [X]. The truth is [Y]." （日本語訳：「誰もが[X]と言っています。真実は[Y]です。」）
+### Contrarian Hooks （逆張りフック）
+- "Unpopular opinion: [bold statement]" （「不人気な意見: [大胆な発言]」）
+- "[Common advice] is wrong. Here's why:" （「[一般的なアドバイス] は間違っています。その理由は次のとおりです。」）
+- "I stopped [common practice] and [positive result]." （「私は（一般的なやり方）と（前向きな結果）をやめました。」）
+- "Everyone says [X]. The truth is [Y]." （「誰もが[X]と言っています。真実は[Y]です。」）
 
-### Social Proof Hooks （日本語訳：社会的証明フック）
-- "We [achieved result] in [timeframe]. Here's the full story:" （日本語訳：「[期間]内に[結果を達成]しました。全文は次のとおりです。」）
-- "[Number] people asked me about [topic]. Here's my answer:" （日本語訳：「[数]人が[トピック]について私に質問しました。これが私の答えです:」）
-- "[Authority figure] taught me [lesson]." （日本語訳：「[権威者]が私に[教訓]を教えてくれました。」）
+### Social Proof Hooks （社会的証明フック）
+- "We [achieved result] in [timeframe]. Here's the full story:" （「[期間]内に[結果を達成]しました。全文は次のとおりです。」）
+- "[Number] people asked me about [topic]. Here's my answer:" （「[数]人が[トピック]について私に質問しました。これが私の答えです:」）
+- "[Authority figure] taught me [lesson]." （「[権威者]が私に[教訓]を教えてくれました。」）

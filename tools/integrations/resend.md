@@ -1,25 +1,25 @@
-# Resend （日本語訳：再送信）
+# Resend （再送信）
 
-Developer-friendly transactional email service with modern API. （日本語訳：最新の API を使用した開発者向けのトランザクション電子メール サービス。）
+Developer-friendly transactional email service with modern API. （最新の API を使用した開発者向けのトランザクション電子メール サービス。）
 
-## Capabilities （日本語訳：能力）
+## Capabilities （能力）
 
-| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
+| Integration（統合） | Available（利用可能） | Notes（注意事項） |
 |-------------|-----------|-------|
-| API（日本語訳：API） | ✓ | Simple REST API for sending emails（日本語訳：メール送信用のシンプルなREST API） |
-| MCP（日本語訳：MCP） | ✓ | Available via Resend MCP server（日本語訳：再送信 MCP サーバー経由で利用可能） |
-| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
-| SDK（日本語訳：SDK） | ✓ | Official SDKs for Node.js, Python, Go, etc.（日本語訳：Node.js、Python、Go などの公式 SDK） |
+| API（API） | ✓ | Simple REST API for sending emails（メール送信用のシンプルなREST API） |
+| MCP（MCP） | ✓ | Available via Resend MCP server（再送信 MCP サーバー経由で利用可能） |
+| CLI（CLI） | - | Not available（利用不可） |
+| SDK（SDK） | ✓ | Official SDKs for Node.js, Python, Go, etc.（Node.js、Python、Go などの公式 SDK） |
 
-## Authentication （日本語訳：認証）
+## Authentication （認証）
 
-- **Type**: API Key （日本語訳：**タイプ**: API キー）
-- **Header**: `Authorization: Bearer {api_key}` （日本語訳：**ヘッダー**: `Authorization: Bearer {api_key}`）
-- **Get key**: API Keys section in Resend dashboard （日本語訳：**キーの取得**: 再送信ダッシュボードの API キー セクション）
+- **Type**: API Key （**タイプ**: API キー）
+- **Header**: `Authorization: Bearer {api_key}` （**ヘッダー**: `Authorization: Bearer {api_key}`）
+- **Get key**: API Keys section in Resend dashboard （**キーの取得**: 再送信ダッシュボードの API キー セクション）
 
-## Common Agent Operations （日本語訳：エージェントの共通操作）
+## Common Agent Operations （エージェントの共通操作）
 
-### Send email （日本語訳：電子メールを送信する）
+### Send email （電子メールを送信する）
 
 ```bash
 POST https://api.resend.com/emails
@@ -32,7 +32,7 @@ POST https://api.resend.com/emails
 }
 ```
 
-### Send with React template （日本語訳：React テンプレートで送信）
+### Send with React template （React テンプレートで送信）
 
 ```bash
 POST https://api.resend.com/emails
@@ -48,19 +48,19 @@ POST https://api.resend.com/emails
 }
 ```
 
-### Get email status （日本語訳：電子メールのステータスを取得する）
+### Get email status （電子メールのステータスを取得する）
 
 ```bash
 GET https://api.resend.com/emails/{email_id}
 ```
 
-### List emails （日本語訳：メールの一覧表示）
+### List emails （メールの一覧表示）
 
 ```bash
 GET https://api.resend.com/emails
 ```
 
-### Send batch emails （日本語訳：バッチメールを送信する）
+### Send batch emails （バッチメールを送信する）
 
 ```bash
 POST https://api.resend.com/emails/batch
@@ -79,27 +79,27 @@ POST https://api.resend.com/emails/batch
 ]
 ```
 
-### List domains （日本語訳：ドメインのリスト）
+### List domains （ドメインのリスト）
 
 ```bash
 GET https://api.resend.com/domains
 ```
 
-### Verify domain （日本語訳：ドメインの検証）
+### Verify domain （ドメインの検証）
 
 ```bash
 POST https://api.resend.com/domains/{domain_id}/verify
 ```
 
-## Node.js SDK （日本語訳：Node.js SDK）
+## Node.js SDK （Node.js SDK）
 
-### Install （日本語訳：インストール）
+### Install （インストール）
 
 ```bash
 npm install resend
 ```
 
-### Usage （日本語訳：使用法）
+### Usage （使用法）
 
 ```typescript
 import { Resend } from 'resend';
@@ -114,7 +114,7 @@ await resend.emails.send({
 });
 ```
 
-### With React Email （日本語訳：反応メールの場合）
+### With React Email （反応メールの場合）
 
 ```typescript
 import { WelcomeEmail } from './emails/welcome';
@@ -127,42 +127,42 @@ await resend.emails.send({
 });
 ```
 
-## Email Statuses （日本語訳：電子メールのステータス）
+## Email Statuses （電子メールのステータス）
 
-- `queued` - Email queued for delivery （日本語訳：`queued` - 電子メールが配信待ちにされました）
-- `sent` - Email sent to recipient server （日本語訳：`sent` - 受信者サーバーに送信された電子メール）
-- `delivered` - Email delivered （日本語訳：`delivered` - 電子メールが配信されました）
-- `opened` - Email opened (if tracking enabled) （日本語訳：`opened` - 電子メールが開かれました (追跡が有効な場合)）
-- `clicked` - Link clicked (if tracking enabled) （日本語訳：`clicked` - リンクがクリックされました (追跡が有効な場合)）
-- `bounced` - Email bounced （日本語訳：`bounced` - 電子メールが返送されました）
-- `complained` - Marked as spam （日本語訳：`complained` - スパムとしてマークされています）
+- `queued` - Email queued for delivery （`queued` - 電子メールが配信待ちにされました）
+- `sent` - Email sent to recipient server （`sent` - 受信者サーバーに送信された電子メール）
+- `delivered` - Email delivered （`delivered` - 電子メールが配信されました）
+- `opened` - Email opened (if tracking enabled) （`opened` - 電子メールが開かれました (追跡が有効な場合)）
+- `clicked` - Link clicked (if tracking enabled) （`clicked` - リンクがクリックされました (追跡が有効な場合)）
+- `bounced` - Email bounced （`bounced` - 電子メールが返送されました）
+- `complained` - Marked as spam （`complained` - スパムとしてマークされています）
 
-## Webhook Events （日本語訳：Webhook イベント）
+## Webhook Events （Webhook イベント）
 
-| Event（日本語訳：イベント） | When（日本語訳：いつ） |
+| Event（イベント） | When（いつ） |
 |-------|------|
-| `email.sent`（日本語訳：__コード0__） | Email sent（日本語訳：メールを送信しました） |
-| `email.delivered`（日本語訳：__コード0__） | Email delivered（日本語訳：メール配信） |
-| `email.opened`（日本語訳：__コード0__） | Email opened（日本語訳：メールを開封しました） |
-| `email.clicked`（日本語訳：__コード0__） | Link clicked（日本語訳：リンクがクリックされました） |
-| `email.bounced`（日本語訳：__コード0__） | Email bounced（日本語訳：電子メールが返送されました） |
-| `email.complained`（日本語訳：__コード0__） | Spam complaint（日本語訳：スパムに関する苦情） |
+| `email.sent`（__コード0__） | Email sent（メールを送信しました） |
+| `email.delivered`（__コード0__） | Email delivered（メール配信） |
+| `email.opened`（__コード0__） | Email opened（メールを開封しました） |
+| `email.clicked`（__コード0__） | Link clicked（リンクがクリックされました） |
+| `email.bounced`（__コード0__） | Email bounced（電子メールが返送されました） |
+| `email.complained`（__コード0__） | Spam complaint（スパムに関する苦情） |
 
-## When to Use （日本語訳：いつ使用するか）
+## When to Use （いつ使用するか）
 
-- Sending transactional emails （日本語訳：トランザクションメールの送信）
-- Welcome emails, password resets （日本語訳：ウェルカムメール、パスワードのリセット）
-- Receipt and notification emails （日本語訳：受信および通知メール）
-- Developer-friendly email integration （日本語訳：開発者向けの電子メール統合）
-- React-based email templates （日本語訳：Reactベースのメールテンプレート）
+- Sending transactional emails （トランザクションメールの送信）
+- Welcome emails, password resets （ウェルカムメール、パスワードのリセット）
+- Receipt and notification emails （受信および通知メール）
+- Developer-friendly email integration （開発者向けの電子メール統合）
+- React-based email templates （Reactベースのメールテンプレート）
 
-## Rate Limits （日本語訳：レート制限）
+## Rate Limits （レート制限）
 
-- Free: 100 emails/day, 3,000/month （日本語訳：無料: 100 メール/日、3,000 メール/月）
-- Pro: 100 emails/second （日本語訳：プロ: 100 メール/秒）
-- Higher limits on scale plans （日本語訳：スケール プランの上限の引き上げ）
+- Free: 100 emails/day, 3,000/month （無料: 100 メール/日、3,000 メール/月）
+- Pro: 100 emails/second （プロ: 100 メール/秒）
+- Higher limits on scale plans （スケール プランの上限の引き上げ）
 
-## Relevant Skills （日本語訳：関連するスキル）
+## Relevant Skills （関連するスキル）
 
-- email-sequence （日本語訳：電子メールシーケンス）
-- onboarding-cro （日本語訳：オンボーディングクロ）
+- email-sequence （電子メールシーケンス）
+- onboarding-cro （オンボーディングクロ）

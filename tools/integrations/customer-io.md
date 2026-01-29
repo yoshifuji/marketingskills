@@ -1,25 +1,25 @@
-# Customer.io （日本語訳：Customer.io）
+# Customer.io （Customer.io）
 
-Behavior-based messaging platform for email, push, SMS, and in-app. （日本語訳：電子メール、プッシュ、SMS、アプリ内向けの行動ベースのメッセージング プラットフォーム。）
+Behavior-based messaging platform for email, push, SMS, and in-app. （電子メール、プッシュ、SMS、アプリ内向けの行動ベースのメッセージング プラットフォーム。）
 
-## Capabilities （日本語訳：能力）
+## Capabilities （能力）
 
-| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
+| Integration（統合） | Available（利用可能） | Notes（注意事項） |
 |-------------|-----------|-------|
-| API（日本語訳：API） | ✓ | Track API, App API, Journeys API（日本語訳：Track API、App API、Journeys API） |
-| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
-| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
-| SDK（日本語訳：SDK） | ✓ | JavaScript, iOS, Android, Ruby, Python（日本語訳：JavaScript、iOS、Android、Ruby、Python） |
+| API（API） | ✓ | Track API, App API, Journeys API（Track API、App API、Journeys API） |
+| MCP（MCP） | - | Not available（利用不可） |
+| CLI（CLI） | - | Not available（利用不可） |
+| SDK（SDK） | ✓ | JavaScript, iOS, Android, Ruby, Python（JavaScript、iOS、Android、Ruby、Python） |
 
-## Authentication （日本語訳：認証）
+## Authentication （認証）
 
-- **Track API**: Site ID + API Key (Basic auth) （日本語訳：**Track API**: サイト ID + API キー (基本認証)）
-- **App API**: Bearer token （日本語訳：**アプリ API**: ベアラー トークン）
-- **Header**: `Authorization: Basic {base64(site_id:api_key)}` （日本語訳：**ヘッダー**: `Authorization: Basic {base64(site_id:api_key)}`）
+- **Track API**: Site ID + API Key (Basic auth) （**Track API**: サイト ID + API キー (基本認証)）
+- **App API**: Bearer token （**アプリ API**: ベアラー トークン）
+- **Header**: `Authorization: Basic {base64(site_id:api_key)}` （**ヘッダー**: `Authorization: Basic {base64(site_id:api_key)}`）
 
-## Common Agent Operations （日本語訳：エージェントの共通操作）
+## Common Agent Operations （エージェントの共通操作）
 
-### Identify customer （日本語訳：顧客を特定する）
+### Identify customer （顧客を特定する）
 
 ```bash
 PUT https://track.customer.io/api/v1/customers/{customer_id}
@@ -34,7 +34,7 @@ Authorization: Basic {base64(site_id:api_key)}
 }
 ```
 
-### Track event （日本語訳：イベントを追跡する）
+### Track event （イベントを追跡する）
 
 ```bash
 POST https://track.customer.io/api/v1/customers/{customer_id}/events
@@ -50,7 +50,7 @@ Authorization: Basic {base64(site_id:api_key)}
 }
 ```
 
-### Track anonymous event （日本語訳：匿名イベントを追跡する）
+### Track anonymous event （匿名イベントを追跡する）
 
 ```bash
 POST https://track.customer.io/api/v1/events
@@ -66,7 +66,7 @@ Authorization: Basic {base64(site_id:api_key)}
 }
 ```
 
-### Delete customer （日本語訳：顧客の削除）
+### Delete customer （顧客の削除）
 
 ```bash
 DELETE https://track.customer.io/api/v1/customers/{customer_id}
@@ -74,7 +74,7 @@ DELETE https://track.customer.io/api/v1/customers/{customer_id}
 Authorization: Basic {base64(site_id:api_key)}
 ```
 
-### Get customer (App API) （日本語訳：顧客の獲得（アプリAPI））
+### Get customer (App API) （顧客の獲得（アプリAPI））
 
 ```bash
 GET https://api.customer.io/v1/customers/{customer_id}/attributes
@@ -82,7 +82,7 @@ GET https://api.customer.io/v1/customers/{customer_id}/attributes
 Authorization: Bearer {app_api_key}
 ```
 
-### List campaigns （日本語訳：リストキャンペーン）
+### List campaigns （リストキャンペーン）
 
 ```bash
 GET https://api.customer.io/v1/campaigns
@@ -90,7 +90,7 @@ GET https://api.customer.io/v1/campaigns
 Authorization: Bearer {app_api_key}
 ```
 
-### Get campaign metrics （日本語訳：キャンペーン指標を取得する）
+### Get campaign metrics （キャンペーン指標を取得する）
 
 ```bash
 GET https://api.customer.io/v1/campaigns/{campaign_id}/metrics
@@ -98,7 +98,7 @@ GET https://api.customer.io/v1/campaigns/{campaign_id}/metrics
 Authorization: Bearer {app_api_key}
 ```
 
-### Trigger broadcast （日本語訳：トリガーブロードキャスト）
+### Trigger broadcast （トリガーブロードキャスト）
 
 ```bash
 POST https://api.customer.io/v1/campaigns/{campaign_id}/triggers
@@ -113,7 +113,7 @@ Authorization: Bearer {app_api_key}
 }
 ```
 
-### Send transactional email （日本語訳：取引メールを送信する）
+### Send transactional email （取引メールを送信する）
 
 ```bash
 POST https://api.customer.io/v1/send/email
@@ -132,7 +132,7 @@ Authorization: Bearer {app_api_key}
 }
 ```
 
-## JavaScript SDK （日本語訳：JavaScript SDK）
+## JavaScript SDK （JavaScript SDK）
 
 ```javascript
 // Initialize
@@ -153,35 +153,35 @@ _cio.track('purchase', {
 _cio.page();
 ```
 
-## Key Concepts （日本語訳：主要な概念）
+## Key Concepts （主要な概念）
 
-- **People** - Customers and leads （日本語訳：**人** - 顧客とリード）
-- **Segments** - Dynamic groups based on attributes/behavior （日本語訳：**セグメント** - 属性/動作に基づく動的グループ）
-- **Campaigns** - Automated message sequences （日本語訳：**キャンペーン** - 自動化されたメッセージ シーケンス）
-- **Broadcasts** - One-time sends （日本語訳：**ブロードキャスト** - 1 回限りの送信）
-- **Transactional** - Triggered messages （日本語訳：**トランザクション** - トリガーされたメッセージ）
+- **People** - Customers and leads （**人** - 顧客とリード）
+- **Segments** - Dynamic groups based on attributes/behavior （**セグメント** - 属性/動作に基づく動的グループ）
+- **Campaigns** - Automated message sequences （**キャンペーン** - 自動化されたメッセージ シーケンス）
+- **Broadcasts** - One-time sends （**ブロードキャスト** - 1 回限りの送信）
+- **Transactional** - Triggered messages （**トランザクション** - トリガーされたメッセージ）
 
-## Attribute Types （日本語訳：属性の種類）
+## Attribute Types （属性の種類）
 
-- Standard: `email`, `created_at`, `unsubscribed` （日本語訳：標準: `email`、`created_at`、`unsubscribed`）
-- Custom: Any key you define （日本語訳：カスタム: 定義した任意のキー）
-- Computed: Aggregations from events （日本語訳：計算: イベントからの集計）
+- Standard: `email`, `created_at`, `unsubscribed` （標準: `email`、`created_at`、`unsubscribed`）
+- Custom: Any key you define （カスタム: 定義した任意のキー）
+- Computed: Aggregations from events （計算: イベントからの集計）
 
-## When to Use （日本語訳：いつ使用するか）
+## When to Use （いつ使用するか）
 
-- Behavior-based email automation （日本語訳：行動ベースのメール自動化）
-- Multi-channel messaging (email, push, SMS) （日本語訳：マルチチャネルメッセージング (電子メール、プッシュ、SMS)）
-- Onboarding sequences （日本語訳：オンボーディングシーケンス）
-- Re-engagement campaigns （日本語訳：リエンゲージメントキャンペーン）
-- Transactional messages （日本語訳：トランザクションメッセージ）
+- Behavior-based email automation （行動ベースのメール自動化）
+- Multi-channel messaging (email, push, SMS) （マルチチャネルメッセージング (電子メール、プッシュ、SMS)）
+- Onboarding sequences （オンボーディングシーケンス）
+- Re-engagement campaigns （リエンゲージメントキャンペーン）
+- Transactional messages （トランザクションメッセージ）
 
-## Rate Limits （日本語訳：レート制限）
+## Rate Limits （レート制限）
 
-- Track API: 100 requests/second （日本語訳：トラック API: 100 リクエスト/秒）
-- App API: 10 requests/second （日本語訳：アプリAPI: 10リクエスト/秒）
+- Track API: 100 requests/second （トラック API: 100 リクエスト/秒）
+- App API: 10 requests/second （アプリAPI: 10リクエスト/秒）
 
-## Relevant Skills （日本語訳：関連するスキル）
+## Relevant Skills （関連するスキル）
 
-- email-sequence （日本語訳：電子メールシーケンス）
-- onboarding-cro （日本語訳：オンボーディングクロ）
-- analytics-tracking （日本語訳：分析追跡）
+- email-sequence （電子メールシーケンス）
+- onboarding-cro （オンボーディングクロ）
+- analytics-tracking （分析追跡）

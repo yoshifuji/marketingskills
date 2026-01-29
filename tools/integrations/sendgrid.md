@@ -1,25 +1,25 @@
-# SendGrid （日本語訳：送信グリッド）
+# SendGrid （送信グリッド）
 
-Email delivery platform for transactional and marketing emails. （日本語訳：トランザクションおよびマーケティング電子メールのための電子メール配信プラットフォーム。）
+Email delivery platform for transactional and marketing emails. （トランザクションおよびマーケティング電子メールのための電子メール配信プラットフォーム。）
 
-## Capabilities （日本語訳：能力）
+## Capabilities （能力）
 
-| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
+| Integration（統合） | Available（利用可能） | Notes（注意事項） |
 |-------------|-----------|-------|
-| API（日本語訳：API） | ✓ | Mail Send API, Marketing API（日本語訳：メール送信API、マーケティングAPI） |
-| MCP（日本語訳：MCP） | - | Not available（日本語訳：利用不可） |
-| CLI（日本語訳：CLI） | - | Not available（日本語訳：利用不可） |
-| SDK（日本語訳：SDK） | ✓ | Official libraries for most languages（日本語訳：ほとんどの言語の公式ライブラリ） |
+| API（API） | ✓ | Mail Send API, Marketing API（メール送信API、マーケティングAPI） |
+| MCP（MCP） | - | Not available（利用不可） |
+| CLI（CLI） | - | Not available（利用不可） |
+| SDK（SDK） | ✓ | Official libraries for most languages（ほとんどの言語の公式ライブラリ） |
 
-## Authentication （日本語訳：認証）
+## Authentication （認証）
 
-- **Type**: API Key （日本語訳：**タイプ**: API キー）
-- **Header**: `Authorization: Bearer {api_key}` （日本語訳：**ヘッダー**: `Authorization: Bearer {api_key}`）
-- **Get key**: Settings > API Keys in SendGrid dashboard （日本語訳：**キーの取得**: SendGrid ダッシュボードの [設定] > [API キー]）
+- **Type**: API Key （**タイプ**: API キー）
+- **Header**: `Authorization: Bearer {api_key}` （**ヘッダー**: `Authorization: Bearer {api_key}`）
+- **Get key**: Settings > API Keys in SendGrid dashboard （**キーの取得**: SendGrid ダッシュボードの [設定] > [API キー]）
 
-## Common Agent Operations （日本語訳：エージェントの共通操作）
+## Common Agent Operations （エージェントの共通操作）
 
-### Send email （日本語訳：電子メールを送信する）
+### Send email （電子メールを送信する）
 
 ```bash
 POST https://api.sendgrid.com/v3/mail/send
@@ -39,7 +39,7 @@ Authorization: Bearer {api_key}
 }
 ```
 
-### Send with template （日本語訳：テンプレートで送信）
+### Send with template （テンプレートで送信）
 
 ```bash
 POST https://api.sendgrid.com/v3/mail/send
@@ -57,7 +57,7 @@ POST https://api.sendgrid.com/v3/mail/send
 }
 ```
 
-### Add contact to list （日本語訳：連絡先をリストに追加）
+### Add contact to list （連絡先をリストに追加）
 
 ```bash
 PUT https://api.sendgrid.com/v3/marketing/contacts
@@ -72,7 +72,7 @@ PUT https://api.sendgrid.com/v3/marketing/contacts
 }
 ```
 
-### Search contacts （日本語訳：連絡先の検索）
+### Search contacts （連絡先の検索）
 
 ```bash
 POST https://api.sendgrid.com/v3/marketing/contacts/search
@@ -82,7 +82,7 @@ POST https://api.sendgrid.com/v3/marketing/contacts/search
 }
 ```
 
-### Get email statistics （日本語訳：電子メールの統計を取得する）
+### Get email statistics （電子メールの統計を取得する）
 
 ```bash
 GET https://api.sendgrid.com/v3/stats?start_date=2024-01-01&end_date=2024-01-31
@@ -90,7 +90,7 @@ GET https://api.sendgrid.com/v3/stats?start_date=2024-01-01&end_date=2024-01-31
 Authorization: Bearer {api_key}
 ```
 
-### Get bounces （日本語訳：バウンスを取得する）
+### Get bounces （バウンスを取得する）
 
 ```bash
 GET https://api.sendgrid.com/v3/suppression/bounces
@@ -98,7 +98,7 @@ GET https://api.sendgrid.com/v3/suppression/bounces
 Authorization: Bearer {api_key}
 ```
 
-### Get spam reports （日本語訳：スパムレポートを取得する）
+### Get spam reports （スパムレポートを取得する）
 
 ```bash
 GET https://api.sendgrid.com/v3/suppression/spam_reports
@@ -106,7 +106,7 @@ GET https://api.sendgrid.com/v3/suppression/spam_reports
 Authorization: Bearer {api_key}
 ```
 
-### Validate email （日本語訳：電子メールを検証する）
+### Validate email （電子メールを検証する）
 
 ```bash
 POST https://api.sendgrid.com/v3/validations/email
@@ -116,20 +116,20 @@ POST https://api.sendgrid.com/v3/validations/email
 }
 ```
 
-## Webhook Events （日本語訳：Webhook イベント）
+## Webhook Events （Webhook イベント）
 
-| Event（日本語訳：イベント） | Description（日本語訳：説明） |
+| Event（イベント） | Description（説明） |
 |-------|-------------|
-| `processed`（日本語訳：__コード0__） | Email accepted（日本語訳：電子メールを受け付けました） |
-| `delivered`（日本語訳：__コード0__） | Email delivered（日本語訳：メール配信） |
-| `open`（日本語訳：__コード0__） | Email opened（日本語訳：メールを開封しました） |
-| `click`（日本語訳：__コード0__） | Link clicked（日本語訳：リンクがクリックされました） |
-| `bounce`（日本語訳：__コード0__） | Hard/soft bounce（日本語訳：ハード/ソフトバウンス） |
-| `dropped`（日本語訳：__コード0__） | Email dropped（日本語訳：メールがドロップされました） |
-| `spamreport`（日本語訳：__コード0__） | Marked as spam（日本語訳：スパムとしてマークされる） |
-| `unsubscribe`（日本語訳：__コード0__） | Unsubscribed（日本語訳：購読解除済み） |
+| `processed`（__コード0__） | Email accepted（電子メールを受け付けました） |
+| `delivered`（__コード0__） | Email delivered（メール配信） |
+| `open`（__コード0__） | Email opened（メールを開封しました） |
+| `click`（__コード0__） | Link clicked（リンクがクリックされました） |
+| `bounce`（__コード0__） | Hard/soft bounce（ハード/ソフトバウンス） |
+| `dropped`（__コード0__） | Email dropped（メールがドロップされました） |
+| `spamreport`（__コード0__） | Marked as spam（スパムとしてマークされる） |
+| `unsubscribe`（__コード0__） | Unsubscribed（購読解除済み） |
 
-## Node.js SDK （日本語訳：Node.js SDK）
+## Node.js SDK （Node.js SDK）
 
 ```javascript
 const sgMail = require('@sendgrid/mail');
@@ -143,19 +143,19 @@ await sgMail.send({
 });
 ```
 
-## When to Use （日本語訳：いつ使用するか）
+## When to Use （いつ使用するか）
 
-- Transactional email at scale （日本語訳：大規模なトランザクションメール）
-- Marketing email campaigns （日本語訳：マーケティング電子メール キャンペーン）
-- Email validation （日本語訳：電子メールの検証）
-- Deliverability management （日本語訳：納期管理）
+- Transactional email at scale （大規模なトランザクションメール）
+- Marketing email campaigns （マーケティング電子メール キャンペーン）
+- Email validation （電子メールの検証）
+- Deliverability management （納期管理）
 
-## Rate Limits （日本語訳：レート制限）
+## Rate Limits （レート制限）
 
-- Free: 100 emails/day （日本語訳：無料: 100 メール/日）
-- Paid: Varies by plan (up to millions/month) （日本語訳：有料: プランによって異なります (最大数百万/月)）
+- Free: 100 emails/day （無料: 100 メール/日）
+- Paid: Varies by plan (up to millions/month) （有料: プランによって異なります (最大数百万/月)）
 
-## Relevant Skills （日本語訳：関連するスキル）
+## Relevant Skills （関連するスキル）
 
-- email-sequence （日本語訳：電子メールシーケンス）
-- analytics-tracking （日本語訳：分析追跡）
+- email-sequence （電子メールシーケンス）
+- analytics-tracking （分析追跡）

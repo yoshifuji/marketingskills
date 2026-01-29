@@ -1,8 +1,8 @@
-# A/B Test Templates Reference （日本語訳：A/B テスト テンプレートのリファレンス）
+# A/B Test Templates Reference （A/B テスト テンプレートのリファレンス）
 
-Templates for planning, documenting, and analyzing experiments. （日本語訳：実験を計画、文書化、分析するためのテンプレート。）
+Templates for planning, documenting, and analyzing experiments. （実験を計画、文書化、分析するためのテンプレート。）
 
-## Test Plan Template （日本語訳：テスト計画テンプレート）
+## Test Plan Template （テスト計画テンプレート）
 
 ```markdown
 # A/B Test: [Name]
@@ -87,7 +87,7 @@ We'll know this is true when [metrics].
 
 ---
 
-## Results Documentation Template （日本語訳：結果文書テンプレート）
+## Results Documentation Template （結果文書テンプレート）
 
 ```markdown
 # A/B Test Results: [Name]
@@ -184,9 +184,9 @@ We'll know this is true when [metrics].
 
 ---
 
-## Test Repository Entry Template （日本語訳：テストリポジトリエントリテンプレート）
+## Test Repository Entry Template （テストリポジトリエントリテンプレート）
 
-For tracking all tests in a central location: （日本語訳：すべてのテストを中央の場所で追跡するには:）
+For tracking all tests in a central location: （すべてのテストを中央の場所で追跡するには:）
 
 ```markdown
 | Test ID | Name | Page | Dates | Primary Metric | Result | Lift | Link |
@@ -198,9 +198,9 @@ For tracking all tests in a central location: （日本語訳：すべてのテ�
 
 ---
 
-## Quick Test Brief Template （日本語訳：クイックテストの概要テンプレート）
+## Quick Test Brief Template （クイックテストの概要テンプレート）
 
-For simple tests that don't need full documentation: （日本語訳：完全なドキュメントを必要としない単純なテストの場合:）
+For simple tests that don't need full documentation: （完全なドキュメントを必要としない単純なテストの場合:）
 
 ```markdown
 ## [Test Name]
@@ -215,7 +215,7 @@ For simple tests that don't need full documentation: （日本語訳：完全な
 
 ---
 
-## Stakeholder Update Template （日本語訳：関係者更新テンプレート）
+## Stakeholder Update Template （関係者更新テンプレート）
 
 ```markdown
 ## A/B Test Update: [Name]
@@ -238,26 +238,26 @@ For simple tests that don't need full documentation: （日本語訳：完全な
 
 ---
 
-## Experiment Prioritization Scorecard （日本語訳：テストの優先順位付けスコアカード）
+## Experiment Prioritization Scorecard （テストの優先順位付けスコアカード）
 
-For deciding which tests to run: （日本語訳：実行するテストを決定するには:）
+For deciding which tests to run: （実行するテストを決定するには:）
 
-| Factor（日本語訳：要素） | Weight（日本語訳：重さ） | Test A（日本語訳：テストA） | Test B（日本語訳：テストB） | Test C（日本語訳：テストC） |
+| Factor（要素） | Weight（重さ） | Test A（テストA） | Test B（テストB） | Test C（テストC） |
 |--------|--------|--------|--------|--------|
-| Potential impact（日本語訳：潜在的な影響） | 30% | | | |
-| Confidence in hypothesis（日本語訳：仮説への信頼） | 25% | | | |
-| Ease of implementation（日本語訳：実装の容易さ） | 20% | | | |
-| Risk if wrong（日本語訳：間違った場合のリスク） | 15% | | | |
-| Strategic alignment（日本語訳：戦略的連携） | 10% | | | |
-| **Total**（日本語訳：**合計**） | | | | |
+| Potential impact（潜在的な影響） | 30% | | | |
+| Confidence in hypothesis（仮説への信頼） | 25% | | | |
+| Ease of implementation（実装の容易さ） | 20% | | | |
+| Risk if wrong（間違った場合のリスク） | 15% | | | |
+| Strategic alignment（戦略的連携） | 10% | | | |
+| **Total**（**合計**） | | | | |
 
-Scoring: 1-5 (5 = best) （日本語訳：スコア: 1-5 (5 = 最高)）
+Scoring: 1-5 (5 = best) （スコア: 1-5 (5 = 最高)）
 
 ---
 
-## Hypothesis Bank Template （日本語訳：仮説バンクのテンプレート）
+## Hypothesis Bank Template （仮説バンクのテンプレート）
 
-For collecting test ideas: （日本語訳：テストのアイデアを収集するには:）
+For collecting test ideas: （テストのアイデアを収集するには:）
 
 ```markdown
 | ID | Page/Area | Observation | Hypothesis | Potential Impact | Status |

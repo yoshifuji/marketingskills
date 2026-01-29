@@ -1,25 +1,25 @@
-# Google Analytics 4 (GA4) （日本語訳：Google アナリティクス 4 (GA4)）
+# Google Analytics 4 (GA4) （Google アナリティクス 4 (GA4)）
 
-Web analytics platform for tracking user behavior, conversions, and marketing performance. （日本語訳：ユーザーの行動、コンバージョン、マーケティング パフォーマンスを追跡するための Web 分析プラットフォーム。）
+Web analytics platform for tracking user behavior, conversions, and marketing performance. （ユーザーの行動、コンバージョン、マーケティング パフォーマンスを追跡するための Web 分析プラットフォーム。）
 
-## Capabilities （日本語訳：能力）
+## Capabilities （能力）
 
-| Integration（日本語訳：統合） | Available（日本語訳：利用可能） | Notes（日本語訳：注意事項） |
+| Integration（統合） | Available（利用可能） | Notes（注意事項） |
 |-------------|-----------|-------|
-| API（日本語訳：API） | ✓ | Data API for reports, Admin API for configuration（日本語訳：レポート用のデータ API、構成用の管理 API） |
-| MCP（日本語訳：MCP） | ✓ | Available via Google Analytics MCP server（日本語訳：Google Analytics MCPサーバー経由で利用可能） |
-| CLI（日本語訳：CLI） | - | Use gcloud for some operations（日本語訳：一部の操作には gcloud を使用します） |
-| SDK（日本語訳：SDK） | ✓ | gtag.js, Google Analytics SDK for mobile（日本語訳：gtag.js、モバイル用 Google アナリティクス SDK） |
+| API（API） | ✓ | Data API for reports, Admin API for configuration（レポート用のデータ API、構成用の管理 API） |
+| MCP（MCP） | ✓ | Available via Google Analytics MCP server（Google Analytics MCPサーバー経由で利用可能） |
+| CLI（CLI） | - | Use gcloud for some operations（一部の操作には gcloud を使用します） |
+| SDK（SDK） | ✓ | gtag.js, Google Analytics SDK for mobile（gtag.js、モバイル用 Google アナリティクス SDK） |
 
-## Authentication （日本語訳：認証）
+## Authentication （認証）
 
-- **Type**: OAuth 2.0 or Service Account （日本語訳：**タイプ**: OAuth 2.0 またはサービス アカウント）
-- **Scopes**: `https://www.googleapis.com/auth/analytics.readonly` (read), `https://www.googleapis.com/auth/analytics.edit` (write) （日本語訳：**スコープ**: `https://www.googleapis.com/auth/analytics.readonly` (読み取り)、`https://www.googleapis.com/auth/analytics.edit` (書き込み)）
-- **Setup**: Create credentials in Google Cloud Console （日本語訳：**セットアップ**: Google Cloud Console で認証情報を作成する）
+- **Type**: OAuth 2.0 or Service Account （**タイプ**: OAuth 2.0 またはサービス アカウント）
+- **Scopes**: `https://www.googleapis.com/auth/analytics.readonly` (read), `https://www.googleapis.com/auth/analytics.edit` (write) （**スコープ**: `https://www.googleapis.com/auth/analytics.readonly` (読み取り)、`https://www.googleapis.com/auth/analytics.edit` (書き込み)）
+- **Setup**: Create credentials in Google Cloud Console （**セットアップ**: Google Cloud Console で認証情報を作成する）
 
-## Common Agent Operations （日本語訳：エージェントの共通操作）
+## Common Agent Operations （エージェントの共通操作）
 
-### Run a report (Data API) （日本語訳：レポートの実行 (データ API)）
+### Run a report (Data API) （レポートの実行 (データ API)）
 
 ```bash
 POST https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runReport
@@ -31,7 +31,7 @@ POST https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runRep
 }
 ```
 
-### Get real-time data （日本語訳：リアルタイムデータを取得する）
+### Get real-time data （リアルタイムデータを取得する）
 
 ```bash
 POST https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runRealtimeReport
@@ -42,13 +42,13 @@ POST https://analyticsdata.googleapis.com/v1beta/properties/{property_id}:runRea
 }
 ```
 
-### List conversion events （日本語訳：変換イベントのリストを表示する）
+### List conversion events （変換イベントのリストを表示する）
 
 ```bash
 GET https://analyticsadmin.googleapis.com/v1beta/properties/{property_id}/conversionEvents
 ```
 
-### Create a conversion event （日本語訳：コンバージョンイベントを作成する）
+### Create a conversion event （コンバージョンイベントを作成する）
 
 ```bash
 POST https://analyticsadmin.googleapis.com/v1beta/properties/{property_id}/conversionEvents
@@ -58,9 +58,9 @@ POST https://analyticsadmin.googleapis.com/v1beta/properties/{property_id}/conve
 }
 ```
 
-## Client-Side Tracking （日本語訳：クライアント側の追跡）
+## Client-Side Tracking （クライアント側の追跡）
 
-### Send custom event (gtag.js) （日本語訳：カスタム イベントの送信 (gtag.js)）
+### Send custom event (gtag.js) （カスタム イベントの送信 (gtag.js)）
 
 ```javascript
 gtag('event', 'signup_completed', {
@@ -69,7 +69,7 @@ gtag('event', 'signup_completed', {
 });
 ```
 
-### Send event via Measurement Protocol （日本語訳：測定プロトコル経由でイベントを送信）
+### Send event via Measurement Protocol （測定プロトコル経由でイベントを送信）
 
 ```bash
 POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}&api_secret={api_secret}
@@ -86,41 +86,41 @@ POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}
 }
 ```
 
-## Key Dimensions & Metrics （日本語訳：主要なディメンションと指標）
+## Key Dimensions & Metrics （主要なディメンションと指標）
 
-### Common Dimensions （日本語訳：共通寸法）
-- `sessionSource` - Traffic source （日本語訳：`sessionSource` - トラフィックソース）
-- `sessionMedium` - Traffic medium （日本語訳：`sessionMedium` - トラフィック媒体）
-- `sessionCampaignName` - Campaign name （日本語訳：`sessionCampaignName` - キャンペーン名）
-- `landingPage` - Entry page （日本語訳：`landingPage` - エントリーページ）
-- `deviceCategory` - Device type （日本語訳：`deviceCategory` - デバイスのタイプ）
-- `country` - User country （日本語訳：`country` - ユーザーの国）
+### Common Dimensions （共通寸法）
+- `sessionSource` - Traffic source （`sessionSource` - トラフィックソース）
+- `sessionMedium` - Traffic medium （`sessionMedium` - トラフィック媒体）
+- `sessionCampaignName` - Campaign name （`sessionCampaignName` - キャンペーン名）
+- `landingPage` - Entry page （`landingPage` - エントリーページ）
+- `deviceCategory` - Device type （`deviceCategory` - デバイスのタイプ）
+- `country` - User country （`country` - ユーザーの国）
 
-### Common Metrics （日本語訳：一般的な指標）
-- `sessions` - Total sessions （日本語訳：`sessions` - 合計セッション数）
-- `activeUsers` - Active users （日本語訳：`activeUsers` - アクティブなユーザー）
-- `newUsers` - New users （日本語訳：`newUsers` - 新規ユーザー）
-- `conversions` - Conversion events （日本語訳：`conversions` - 変換イベント）
-- `engagementRate` - Engaged sessions rate （日本語訳：`engagementRate` - エンゲージメントセッション率）
-- `averageSessionDuration` - Session duration （日本語訳：`averageSessionDuration` - セッション期間）
+### Common Metrics （一般的な指標）
+- `sessions` - Total sessions （`sessions` - 合計セッション数）
+- `activeUsers` - Active users （`activeUsers` - アクティブなユーザー）
+- `newUsers` - New users （`newUsers` - 新規ユーザー）
+- `conversions` - Conversion events （`conversions` - 変換イベント）
+- `engagementRate` - Engaged sessions rate （`engagementRate` - エンゲージメントセッション率）
+- `averageSessionDuration` - Session duration （`averageSessionDuration` - セッション期間）
 
-## When to Use （日本語訳：いつ使用するか）
+## When to Use （いつ使用するか）
 
-- Tracking website traffic and user behavior （日本語訳：Web サイトのトラフィックとユーザーの行動を追跡する）
-- Measuring marketing campaign performance （日本語訳：マーケティング キャンペーンのパフォーマンスの測定）
-- Setting up conversion tracking （日本語訳：コンバージョン トラッキングの設定）
-- Analyzing user journeys and funnels （日本語訳：ユーザージャーニーとファネルの分析）
-- Attribution modeling （日本語訳：アトリビューションモデリング）
+- Tracking website traffic and user behavior （Web サイトのトラフィックとユーザーの行動を追跡する）
+- Measuring marketing campaign performance （マーケティング キャンペーンのパフォーマンスの測定）
+- Setting up conversion tracking （コンバージョン トラッキングの設定）
+- Analyzing user journeys and funnels （ユーザージャーニーとファネルの分析）
+- Attribution modeling （アトリビューションモデリング）
 
-## Rate Limits （日本語訳：レート制限）
+## Rate Limits （レート制限）
 
-- Data API: 10 requests per second per property （日本語訳：データ API: プロパティごとに 1 秒あたり 10 リクエスト）
-- Admin API: Varies by endpoint （日本語訳：管理 API: エンドポイントによって異なります）
-- Measurement Protocol: 1M hits/day for free tier （日本語訳：測定プロトコル: 無料枠で 100 万ヒット/日）
+- Data API: 10 requests per second per property （データ API: プロパティごとに 1 秒あたり 10 リクエスト）
+- Admin API: Varies by endpoint （管理 API: エンドポイントによって異なります）
+- Measurement Protocol: 1M hits/day for free tier （測定プロトコル: 無料枠で 100 万ヒット/日）
 
-## Relevant Skills （日本語訳：関連するスキル）
+## Relevant Skills （関連するスキル）
 
-- analytics-tracking （日本語訳：分析追跡）
-- ab-test-setup （日本語訳：ab-テストのセットアップ）
-- seo-audit （日本語訳：SEO監査）
-- page-cro （日本語訳：ページクロ）
+- analytics-tracking （分析追跡）
+- ab-test-setup （ab-テストのセットアップ）
+- seo-audit （SEO監査）
+- page-cro （ページクロ）

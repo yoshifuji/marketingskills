@@ -1,10 +1,10 @@
-# Schema Markup Examples （日本語訳：スキーママークアップの例）
+# Schema Markup Examples （スキーママークアップの例）
 
-Complete JSON-LD examples for common schema types. （日本語訳：一般的なスキーマ タイプの完全な JSON-LD 例。）
+Complete JSON-LD examples for common schema types. （一般的なスキーマ タイプの完全な JSON-LD 例。）
 
-## Organization （日本語訳：組織）
+## Organization （組織）
 
-For company/brand homepage or about page. （日本語訳：企業/ブランドのホームページやAboutページに。）
+For company/brand homepage or about page. （企業/ブランドのホームページやAboutページに。）
 
 ```json
 {
@@ -28,9 +28,9 @@ For company/brand homepage or about page. （日本語訳：企業/ブランド�
 
 ---
 
-## WebSite (with SearchAction) （日本語訳：Web サイト (SearchAction を使用)）
+## WebSite (with SearchAction) （Web サイト (SearchAction を使用)）
 
-For homepage, enables sitelinks search box. （日本語訳：ホームページの場合、サイトリンクの検索ボックスを有効にします。）
+For homepage, enables sitelinks search box. （ホームページの場合、サイトリンクの検索ボックスを有効にします。）
 
 ```json
 {
@@ -51,9 +51,9 @@ For homepage, enables sitelinks search box. （日本語訳：ホームページ
 
 ---
 
-## Article / BlogPosting （日本語訳：記事 / ブログ投稿）
+## Article / BlogPosting （記事 / ブログ投稿）
 
-For blog posts and news articles. （日本語訳：ブログ投稿やニュース記事用。）
+For blog posts and news articles. （ブログ投稿やニュース記事用。）
 
 ```json
 {
@@ -86,9 +86,9 @@ For blog posts and news articles. （日本語訳：ブログ投稿やニュー�
 
 ---
 
-## Product （日本語訳：製品）
+## Product （製品）
 
-For product pages (e-commerce or SaaS). （日本語訳：製品ページ (e コマースまたは SaaS) 用。）
+For product pages (e-commerce or SaaS). （製品ページ (e コマースまたは SaaS) 用。）
 
 ```json
 {
@@ -120,9 +120,9 @@ For product pages (e-commerce or SaaS). （日本語訳：製品ページ (e コ
 
 ---
 
-## SoftwareApplication （日本語訳：ソフトウェアアプリケーション）
+## SoftwareApplication （ソフトウェアアプリケーション）
 
-For SaaS product pages and app landing pages. （日本語訳：SaaS 製品ページとアプリのランディング ページの場合。）
+For SaaS product pages and app landing pages. （SaaS 製品ページとアプリのランディング ページの場合。）
 
 ```json
 {
@@ -146,9 +146,9 @@ For SaaS product pages and app landing pages. （日本語訳：SaaS 製品ペ�
 
 ---
 
-## FAQPage （日本語訳：FAQページ）
+## FAQPage （FAQページ）
 
-For pages with frequently asked questions. （日本語訳：よくあるご質問のページです。）
+For pages with frequently asked questions. （よくあるご質問のページです。）
 
 ```json
 {
@@ -177,9 +177,9 @@ For pages with frequently asked questions. （日本語訳：よくあるご質�
 
 ---
 
-## HowTo （日本語訳：ハウツー）
+## HowTo （ハウツー）
 
-For instructional content and tutorials. （日本語訳：教育コンテンツとチュートリアル用。）
+For instructional content and tutorials. （教育コンテンツとチュートリアル用。）
 
 ```json
 {
@@ -213,9 +213,9 @@ For instructional content and tutorials. （日本語訳：教育コンテンツ
 
 ---
 
-## BreadcrumbList （日本語訳：ブレッドクラムリスト）
+## BreadcrumbList （ブレッドクラムリスト）
 
-For any page with breadcrumb navigation. （日本語訳：ブレッドクラム ナビゲーションのあるページの場合。）
+For any page with breadcrumb navigation. （ブレッドクラム ナビゲーションのあるページの場合。）
 
 ```json
 {
@@ -246,9 +246,9 @@ For any page with breadcrumb navigation. （日本語訳：ブレッドクラム
 
 ---
 
-## LocalBusiness （日本語訳：ローカルビジネス）
+## LocalBusiness （ローカルビジネス）
 
-For local business location pages. （日本語訳：地元のビジネス拠点のページ用。）
+For local business location pages. （地元のビジネス拠点のページ用。）
 
 ```json
 {
@@ -284,9 +284,9 @@ For local business location pages. （日本語訳：地元のビジネス拠点
 
 ---
 
-## Event （日本語訳：イベント）
+## Event （イベント）
 
-For event pages, webinars, conferences. （日本語訳：イベントページ、ウェビナー、カンファレンス用。）
+For event pages, webinars, conferences. （イベントページ、ウェビナー、カンファレンス用。）
 
 ```json
 {
@@ -325,9 +325,9 @@ For event pages, webinars, conferences. （日本語訳：イベントページ�
 
 ---
 
-## Multiple Schema Types （日本語訳：複数のスキーマタイプ）
+## Multiple Schema Types （複数のスキーマタイプ）
 
-Combine multiple schema types using @graph. （日本語訳：@graph を使用して複数のスキーマ タイプを結合します。）
+Combine multiple schema types using @graph. （@graph を使用して複数のスキーマ タイプを結合します。）
 
 ```json
 {
@@ -358,7 +358,7 @@ Combine multiple schema types using @graph. （日本語訳：@graph を使用�
 
 ---
 
-## Implementation Example (Next.js) （日本語訳：実装例（Next.js））
+## Implementation Example (Next.js) （実装例（Next.js））
 
 ```jsx
 export default function ProductPage({ product }) {
